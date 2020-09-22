@@ -1,4 +1,3 @@
-
 "" CoC
 
 " if hidden is not set, TextEdit might fail
