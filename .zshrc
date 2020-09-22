@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
- export PATH=$PATH:$HOME/bin
+ export PATH=$PATH:$HOME/bin:$HOME/.local/bin
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/roman/.oh-my-zsh"
@@ -93,6 +93,9 @@ source $ZSH/oh-my-zsh.sh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
+
+export EDITOR=nvim
+
 alias ls='ls --color=auto'
 alias ll='ls -lah'
 alias dir='dir --color=auto'
@@ -115,6 +118,7 @@ alias SS="sudo systemctl"
 alias p="sudo pacman"
 alias vimrc="nvim ~/.config/nvim/init.vim"
 alias vishellrc="$EDITOR ~/.zshrc"
+alias tmux="TERM=xterm-256color tmux"
 
 
 
@@ -149,7 +153,6 @@ echo -ne '\e[5 q' # Use beam shape cursor on startup.
 preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
 
 
-export EDITOR=nvim
 
 #fix stupid zsh directory autocomplete colors
 zstyle ':completion:*' list-colors
@@ -157,8 +160,23 @@ zstyle ':completion:*' list-colors
 alias ccw='gcc -Wall -Wextra -Werror'
 # colored GCC warnings and errors
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+export MOZ_X11_EGL=1
 
 alias norminette='norminette -R CheckForbiddenSourceHeader'
+
+
+#tmux reattach or start new
+if [[ -z "$TMUX" ]] ;then
+    ID="$( tmux ls | grep -vm1 attached | cut -d: -f1 )" # get the id of a deattached session
+    if [[ -z "$ID" ]] ;then # if not available create a new one
+        tmux new-session
+    else
+        tmux attach-session -t "$ID" # if available attach to it
+    fi
+fi
+
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+PATH=$PATH:/home/roman/010editor;export PATH; # ADDED BY INSTALLER - DO NOT EDIT OR DELETE THIS COMMENT - 87FF8EFC-483D-BCAA-D67D-735CF60410D1 CC85DBC7-9F13-087D-B165-1436D4CB4BFA
