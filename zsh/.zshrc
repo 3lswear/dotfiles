@@ -1,5 +1,4 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$PATH:$HOME/bin:$HOME/.local/bin:$HOME/.config/nvim/:$HOME/.emacs.d/bin:$HOME/.gem/ruby/2.7.0/bin
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/roman/.oh-my-zsh"
@@ -100,8 +99,6 @@ source virtualenvwrapper.sh
 # SAVEHIST=$HISTFILESIZE
 # HISTFILE=~/.cache/zsh/history
 
-export EDITOR=nvim
-
 alias ls='ls --color=auto'
 alias ll='ls -lah'
 alias dir='dir --color=auto'
@@ -128,6 +125,8 @@ alias vishellrc="$EDITOR ~/.zshrc"
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias open='f(){ xdg-open "$@" &>/dev/null ;  unset -f f; }; f'
 alias igt="sudo intel_gpu_top"
+alias tlp="sudo tlp"
+alias tlp-stat="sudo tlp-stat"
 
 #color tha man if using less
 man() {
