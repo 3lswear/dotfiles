@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
- export PATH=$PATH:$HOME/bin:$HOME/.local/bin:$HOME/.config/nvim/
+export PATH=$PATH:$HOME/bin:$HOME/.local/bin:$HOME/.config/nvim/:$HOME/.emacs.d/bin:$HOME/.gem/ruby/2.7.0/bin
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/roman/.oh-my-zsh"
@@ -68,9 +68,10 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh-completions)
 
 source $ZSH/oh-my-zsh.sh
+source virtualenvwrapper.sh
 
 # User configuration
 
@@ -94,6 +95,11 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 
+# HISTSIZE=1000000000
+# HISTFILESIZE=1000000000
+# SAVEHIST=$HISTFILESIZE
+# HISTFILE=~/.cache/zsh/history
+
 export EDITOR=nvim
 
 alias ls='ls --color=auto'
@@ -115,14 +121,28 @@ alias free='free -m'                      # show sizes in MB
 alias np='nano -w PKGBUILD'
 alias more=less
 alias SS="sudo systemctl"
-alias p="sudo pacman"
+alias p="sudo pacman --color auto"
+alias yay="yay --aur --color auto"
 alias vimrc="$EDITOR ~/.config/nvim/init.vim"
 alias vishellrc="$EDITOR ~/.zshrc"
-# alias tmux="TERM=xterm-256color tmux"
+alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+alias open='f(){ xdg-open "$@" &>/dev/null ;  unset -f f; }; f'
+alias igt="sudo intel_gpu_top"
 
+#color tha man if using less
+man() {
+    LESS_TERMCAP_md=$'\e[01;31m' \
+    LESS_TERMCAP_me=$'\e[0m' \
+    LESS_TERMCAP_se=$'\e[0m' \
+    LESS_TERMCAP_so=$'\e[01;44;33m' \
+    LESS_TERMCAP_ue=$'\e[0m' \
+    LESS_TERMCAP_us=$'\e[01;32m' \
+    command man "$@"
+}
 
-
-
+#alias tmux="TERM=xterm-256color tmux"
+export TERM=xterm-256color
+export PAGER=less
 #FROM LUKE
 
 # vi mode
@@ -165,6 +185,10 @@ export MOZ_X11_EGL=1
 #Norminette and stuff
 alias norminette="~/.norminette/norminette.rb"
 alias norminette='norminette -R CheckForbiddenSourceHeader'
+
+# PIP autocomplete
+eval "`pip completion --zsh`"
+compctl -K _pip_completion pip3
 
 
 #tmux reattach or start new

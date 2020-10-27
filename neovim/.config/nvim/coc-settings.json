@@ -1,8 +1,11 @@
 {
 	//"cSpell.enabled": false,
 	"python.jediEnabled": false,
-	"python.linting.enabled": false,
-	"python.analysis.diagnosticEnabled": true,
+	//"python.linting.enabled": true,
+	//"python.analysis.diagnosticEnabled": true,
+	  "python.linting.pylintEnabled": false,
+	  "python.linting.flake8Enabled": true,
+	  "python.linting.enabled": true,
 	"languageserver":
     {
 		"ccls": 
@@ -19,4 +22,5 @@
 			}
 		}
 	}
+	
 }

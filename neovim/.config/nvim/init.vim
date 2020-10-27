@@ -8,22 +8,26 @@ call plug#begin('~/local/share/nvim/plugged')
 "Plug 'vim-scripts/indentpython.vim'
 "Plug 'jnurmine/Zenburn'
 
-"COLOR SCHEMES
+" COMMENTS
+Plug 'tpope/vim-commentary'
+source ~/.config/nvim/comments.vim
+
+" COLOR SCHEMES
 Plug 'altercation/vim-colors-solarized'
 Plug 'overcache/NeoSolarized'
-
-"STATUS BAR
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
 Plug 'tomasiser/vim-code-dark'
 
-"FILE TREE
+" STATUS BAR
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+" FILE TREE
 Plug 'scrooloose/nerdtree'
 
-"SYNTAX HIGLIGHT
-Plug 'vim-syntastic/syntastic'
+" SYNTAX HIGLIGHT
+"Plug 'vim-syntastic/syntastic'
 
-"CODE COMPLETION
+" CODE COMPLETION
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 source ~/.config/nvim/coc.vim
 
@@ -51,16 +55,19 @@ source ~/.config/nvim/coc.vim
 "      \ 'coc-docker',
 "      \ 'coc-diagnostic',
 "      \]
+" LangServer
 
 call plug#end()
 
-"FROM MR BARUTKIN
+" From mr barutkin
 
-nnoremap <Leader>q :q<CR>
-nnoremap <Leader>w :wa<CR>
+nnoremap <nowait><leader>q :q<CR>
+nnoremap <leader>w :wa<CR>
 
 " find merge conflict markers
 nmap <silent> <leader>fc <ESC>/\v^[<=>]{7}( .*\|$)<CR>
+
+" vim-fugitive shortcuts
 nnoremap <leader>gw :Gwrite<CR>
 nnoremap <leader>gc :Gcommit<CR>
 nnoremap <leader>gb :Gblame<CR>
@@ -68,38 +75,44 @@ nnoremap <leader>gb :Gblame<CR>
 
 nmap <silent> // :nohlsearch<CR>
 noremap <leader>hl :set hlsearch! hlsearch?<CR>
+
+" Speed optimizations
 set lazyredraw
 set ttyfast
 
+" Move word to upper- or lowercase
 nmap <leader>u mQviwU`Q
 nmap <leader>l mQviwu`Q
 
 set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
 
-
-
-set number
-set relativenumber
-set cursorline
-set cursorcolumn
+set number relativenumber
+set cursorline cursorcolumn
 set nofoldenable
 set wrap
 set linebreak
 set hlsearch
 set ignorecase
 set smartcase
-set splitbelow
-set splitright
+set splitbelow splitright
+set scrolloff=7
+set mouse=a
+set iskeyword+=-                      	" treat dash separated words as a word text object"
+set noshowmode                          " We don't need to see things like -- INSERT -- anymore
+set formatoptions-=cro                  " Stop newline continution of comments
+set smartindent                         " Makes indenting smart
+" Statusline always active
+set laststatus=2
 
 set encoding=utf-8
 
 set termguicolors
 
-"Tmux hack
+" Tmux hack
 set t_8f=^[[38;2;%lu;%lu;%lum
 set t_8b=^[[48;2;%lu;%lu;%lum
 
-"Fix tmux and stuff
+" Fix tmux and stuff
 " use 256 colors in terminal
 if !has("gui_running")
     set t_Co=256
@@ -115,36 +128,48 @@ if has("win32unix")
 endif
 
 " Shortcutting split navigation
-map <C-h> <C-w><Left>
-map <C-j> <C-w><Down>
-map <C-k> <C-w><Up>
-map <C-l> <C-w><Right>
+" map <C-h> <C-w><Left>
+" map <C-j> <C-w><Down>
+" map <C-k> <C-w><Up>
+" map <C-l> <C-w><Right>
+
 " NerdTree Stuff
 "nmap <C-m> :NERDTreeFind<CR>
 nmap <silent> <leader><leader> :NERDTreeToggle<CR>
 
-let g:solarized_termcolors=256
+" Setting color and colorscheme
+
 "colorscheme codedark
 colorscheme NeoSolarized
-let g:neosolarized_contrast = "high"
+" let g:solarized_termcolors=256
+let g:neosolarized_contrast = "normal"
+let g:neosolarized_visibility="normal"
+let g:neosolarized_bold=1
 syntax enable
 set background=dark
 
+" Enabling persistent undo
 if has('persistent_undo')         "check if your vim version supports
   set undodir=$HOME/.vim/undo     "directory where the undo files will be stored
   set undofile                    "turn on the feature
 endif
 
-"FUZZY FINDER
-set path+=$HOME/.config/nvim/**,$HOME/work/**,
+" Fuzzy finder-like behaviour
+set path+=$HOME/.config/**,$HOME/*,
 set path+=**
 set wildmenu
 
 " Enable hotkeys for Russian layout
 set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
+
+" Configure tab
 set tabstop=4
 set softtabstop=0 noexpandtab
 set shiftwidth=4
+set smarttab                            " Makes tabbing smarter will realize you have 2 vs 4
 
-"let g:powerline_pycmd="py3"
+" Set system clipboard
 set clipboard+=unnamedplus
+
+" Open help in vsplit
+"autocmd FileType help wincmd H
