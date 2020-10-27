@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
- export PATH=$PATH:$HOME/bin:$HOME/.local/bin
+ export PATH=$PATH:$HOME/bin:$HOME/.local/bin:$HOME/.config/nvim/
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/roman/.oh-my-zsh"
@@ -116,9 +116,9 @@ alias np='nano -w PKGBUILD'
 alias more=less
 alias SS="sudo systemctl"
 alias p="sudo pacman"
-alias vimrc="nvim ~/.config/nvim/init.vim"
+alias vimrc="$EDITOR ~/.config/nvim/init.vim"
 alias vishellrc="$EDITOR ~/.zshrc"
-alias tmux="TERM=xterm-256color tmux"
+# alias tmux="TERM=xterm-256color tmux"
 
 
 
@@ -162,6 +162,8 @@ alias ccw='gcc -Wall -Wextra -Werror'
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 export MOZ_X11_EGL=1
 
+#Norminette and stuff
+alias norminette="~/.norminette/norminette.rb"
 alias norminette='norminette -R CheckForbiddenSourceHeader'
 
 

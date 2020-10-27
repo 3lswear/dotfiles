@@ -12,7 +12,7 @@ call plug#begin('~/local/share/nvim/plugged')
 Plug 'altercation/vim-colors-solarized'
 Plug 'overcache/NeoSolarized'
 
-"STATUS BAR 
+"STATUS BAR
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tomasiser/vim-code-dark'
@@ -135,6 +135,11 @@ if has('persistent_undo')         "check if your vim version supports
   set undofile                    "turn on the feature
 endif
 
+"FUZZY FINDER
+set path+=$HOME/.config/nvim/**,$HOME/work/**,
+set path+=**
+set wildmenu
+
 " Enable hotkeys for Russian layout
 set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
 set tabstop=4
@@ -143,4 +148,3 @@ set shiftwidth=4
 
 "let g:powerline_pycmd="py3"
 set clipboard+=unnamedplus
-
