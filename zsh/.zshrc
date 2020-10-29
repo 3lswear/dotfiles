@@ -180,10 +180,12 @@ alias ccw='gcc -Wall -Wextra -Werror'
 # colored GCC warnings and errors
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 export MOZ_X11_EGL=1
+export USER=sunderle
+export MAIL="sunderle@student.21-school.ru"
 
 #Norminette and stuff
 alias norminette="~/.norminette/norminette.rb"
-alias norminette='norminette -R CheckForbiddenSourceHeader'
+alias norm='norminette -R CheckForbiddenSourceHeader'
 
 # PIP autocomplete
 eval "`pip completion --zsh`"
