@@ -24,6 +24,9 @@ Plug 'vim-airline/vim-airline-themes'
 " FILE TREE
 Plug 'scrooloose/nerdtree'
 
+" 42 School Header
+Plug 'pbondoer/vim-42header'
+
 " SYNTAX HIGLIGHT
 "Plug 'vim-syntastic/syntastic'
 
