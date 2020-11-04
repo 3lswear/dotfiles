@@ -25,7 +25,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'scrooloose/nerdtree'
 
 " 42 School Header
-Plug 'pbondoer/vim-42header'
+" Plug 'pbondoer/vim-42header'
 
 " SYNTAX HIGLIGHT
 "Plug 'vim-syntastic/syntastic'
@@ -122,6 +122,7 @@ if !has("gui_running")
     "set term=screen-256color
 endif
 
+set guifont="Fira Code":11
 " fix cursor display in cygwin
 if has("win32unix")
     let &t_ti.="\e[1 q"
