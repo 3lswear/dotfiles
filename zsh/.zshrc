@@ -60,14 +60,13 @@ ZSH_THEME="robbyrussell"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
-
+ZSH_CUSTOM=/usr/share/zsh
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-completions)
+plugins=(git zsh-completions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 source virtualenvwrapper.sh
@@ -181,10 +180,11 @@ alias ccw='gcc -Wall -Wextra -Werror'
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 export MOZ_X11_EGL=1
 export USER=sunderle
-export MAIL="sunderle@student.21-school.ru"
+export MAIL="marvin@42.fr"
 
 #Norminette and stuff
-alias norminette="~/.norminette/norminette.rb"
+# alias norminette="~/.norminette/norminette.rb"
+alias norminette="norminette_linux"
 alias norm='norminette -R CheckForbiddenSourceHeader'
 
 # PIP autocomplete
