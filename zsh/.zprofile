@@ -2,4 +2,8 @@ export PATH=$PATH:$HOME/bin:$HOME/.local/bin:$HOME/.config/nvim/:$HOME/.emacs.d/
 export EDITOR=nvim
 PATH=$PATH:/home/roman/010editor;export PATH;
 
+export MOZ_X11_EGL=1
+export USER=sunderle
+export MAIL="marvin@42.fr"
+
 export PATH="$HOME/.cargo/bin:$PATH"
