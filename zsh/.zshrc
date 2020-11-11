@@ -1,3 +1,4 @@
+source /home/roman/.zprofile
 # If you come from bash you might have to change your $PATH.
 
 # Path to your oh-my-zsh installation.
