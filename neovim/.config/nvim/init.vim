@@ -29,7 +29,9 @@ Plug 'scrooloose/nerdtree'
 
 " SYNTAX HIGLIGHT
 "Plug 'vim-syntastic/syntastic'
-
+Plug 'sheerun/vim-polyglot'
+" Java
+Plug 'uiiaoo/java-syntax.vim'
 " CODE COMPLETION
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 source ~/.config/nvim/coc.vim
@@ -110,6 +112,7 @@ set laststatus=2
 set encoding=utf-8
 
 set termguicolors
+set autochdir
 
 " Tmux hack
 set t_8f=^[[38;2;%lu;%lu;%lum
@@ -140,6 +143,19 @@ endif
 " NerdTree Stuff
 "nmap <C-m> :NERDTreeFind<CR>
 nmap <silent> <leader><leader> :NERDTreeToggle<CR>
+let g:NERDTreeChDirMode=2
+
+" If more than one window and previous buffer was NERDTree, go back to it.
+autocmd BufEnter * if bufname('#') =~# "^NERD_tree_" && winnr('$') > 1 | b# | endif
+
+" Avoid crashes when calling plug commands in NERDTree buffer
+let g:plug_window = 'noautocmd vertical topleft new'
+
+" Airline configuration
+" Enable the list of buffers
+let g:airline#extensions#tabline#enabled = 1
+" Show just the filename
+let g:airline#extensions#tabline#fnamemod = ':t'
 
 " Setting color and colorscheme
 
@@ -159,7 +175,7 @@ if has('persistent_undo')         "check if your vim version supports
 endif
 
 " Fuzzy finder-like behaviour
-set path+=$HOME/.config/**,$HOME/*,
+set path+=$HOME/.config/nvim/*,$HOME/.zshrc,$HOME/.zprofile
 set path+=**
 set wildmenu
 
