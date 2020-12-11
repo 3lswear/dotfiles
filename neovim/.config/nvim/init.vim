@@ -195,6 +195,7 @@ endif
 set path+=$HOME/.config/nvim/*,$HOME/.zshrc,$HOME/.zprofile
 set path+=**
 set wildmenu
+set wildignore=*.o
 
 " Enable hotkeys for Russian layout
 set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
