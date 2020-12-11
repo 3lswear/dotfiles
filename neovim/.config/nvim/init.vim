@@ -3,64 +3,74 @@ let mapleader="\<Space>"
 
 call plug#begin('~/local/share/nvim/plugged')
 
-"Plug 'tmhedberg/SimpylFold'
-"Plug 'Valloric/YouCompleteMe'
-"Plug 'vim-scripts/indentpython.vim'
-"Plug 'jnurmine/Zenburn'
+	"Plug 'tmhedberg/SimpylFold'
+	"Plug 'Valloric/YouCompleteMe'
+	"Plug 'vim-scripts/indentpython.vim'
+	"Plug 'jnurmine/Zenburn'
+	" Plug 'tpope/vim-sensible'
+	" Plug 'tpope/vim-repeat'
 
-" COMMENTS
-Plug 'tpope/vim-commentary'
-source ~/.config/nvim/comments.vim
+	" TreeShitter (EXPERIMENTAL) (only nvim-nightly)
+	" Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
-" COLOR SCHEMES
-Plug 'altercation/vim-colors-solarized'
-Plug 'overcache/NeoSolarized'
-Plug 'tomasiser/vim-code-dark'
+	" COMMENTS
+	Plug 'tpope/vim-commentary'
+	source ~/.config/nvim/comments.vim
 
-" STATUS BAR
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+	" COLOR SCHEMES
+	Plug 'overcache/NeoSolarized'
+	" Plug 'altercation/vim-colors-solarized'
+	" Plug 'tomasiser/vim-code-dark'
 
-" FILE TREE
-Plug 'scrooloose/nerdtree'
+	" STATUS BAR
+	" Plug 'vim-airline/vim-airline'
+	" Plug 'vim-airline/vim-airline-themes'
+	Plug 'itchyny/lightline.vim'
+	Plug 'taohexxx/lightline-buffer'
+	source ~/.config/nvim/lightline.vim
 
-" 42 School Header
-" Plug 'pbondoer/vim-42header'
+	" FILE TREE
+	Plug 'scrooloose/nerdtree'
 
-" SYNTAX HIGLIGHT
-"Plug 'vim-syntastic/syntastic'
-Plug 'sheerun/vim-polyglot'
-" Java
-Plug 'uiiaoo/java-syntax.vim'
-" CODE COMPLETION
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-source ~/.config/nvim/coc.vim
+	" 42 School Header
+	Plug 'pbondoer/vim-42header'
 
-"let g:coc_global_extensions = [
-"      \ 'coc-tabnine',
-"      \ 'coc-tsserver',
-"      \ 'coc-html',
-"      \ 'coc-lists',
-"      \ 'coc-phpls',
-"      \ 'coc-sh',
-"      \ 'coc-css',
-"      \ 'coc-stylelint',
-"      \ 'coc-vimlsp',
-"      \ 'coc-go',
-"      \ 'coc-elixir',
-"      \ 'coc-json',
-"      \ 'coc-eslint',
-"      \ 'coc-python',
-"      \ 'coc-java',
-"      \ 'coc-jest',
-"      \ 'coc-solargraph',
-"      \ 'coc-yaml',
-"      \ 'coc-highlight',
-"      \ 'coc-snippets',
-"      \ 'coc-docker',
-"      \ 'coc-diagnostic',
-"      \]
-" LangServer
+	" SYNTAX HIGLIGHT
+	" Plug 'vim-syntastic/syntastic'
+	" Plug 'sheerun/vim-polyglot'
+	Plug 'StanAngeloff/php.vim'
+	" Java
+	Plug 'uiiaoo/java-syntax.vim'
+
+	" CODE COMPLETION
+	Plug 'neoclide/coc.nvim', {'branch': 'release'}
+	source ~/.config/nvim/coc.vim
+
+	"let g:coc_global_extensions = [
+	"      \ 'coc-tabnine',
+	"      \ 'coc-tsserver',
+	"      \ 'coc-html',
+	"      \ 'coc-lists',
+	"      \ 'coc-phpls',
+	"      \ 'coc-sh',
+	"      \ 'coc-css',
+	"      \ 'coc-stylelint',
+	"      \ 'coc-vimlsp',
+	"      \ 'coc-go',
+	"      \ 'coc-elixir',
+	"      \ 'coc-json',
+	"      \ 'coc-eslint',
+	"      \ 'coc-python',
+	"      \ 'coc-java',
+	"      \ 'coc-jest',
+	"      \ 'coc-solargraph',
+	"      \ 'coc-yaml',
+	"      \ 'coc-highlight',
+	"      \ 'coc-snippets',
+	"      \ 'coc-docker',
+	"      \ 'coc-diagnostic',
+	"      \]
+	" LangServer
 
 call plug#end()
 
