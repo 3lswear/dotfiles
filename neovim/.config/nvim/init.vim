@@ -211,3 +211,12 @@ set clipboard+=unnamedplus
 
 " Open help in vsplit
 "autocmd FileType help wincmd H
+
+" Neovide Stuff
+set guifont=Fira\ Code\ Medium:h10.5
+
+" Attemp to fix php highlight
+
+syntax sync minlines=100
+syntax sync maxlines=240
+set synmaxcol=800
