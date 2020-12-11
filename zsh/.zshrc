@@ -1,3 +1,4 @@
+# source profile file for no reason
 source /home/roman/.zprofile
 # If you come from bash you might have to change your $PATH.
 
@@ -127,6 +128,7 @@ alias open='f(){ xdg-open "$@" &>/dev/null ;  unset -f f; }; f'
 alias igt="sudo intel_gpu_top"
 alias tlp="sudo tlp"
 alias tlp-stat="sudo tlp-stat"
+alias shellrc="source ~/.zshrc"
 
 #color tha man if using less
 man() {
@@ -141,7 +143,6 @@ man() {
 
 #alias tmux="TERM=xterm-256color tmux"
 export TERM=xterm-256color
-export PAGER=less
 #FROM LUKE
 
 # vi mode
@@ -179,9 +180,6 @@ zstyle ':completion:*' list-colors
 alias ccw='gcc -Wall -Wextra -Werror'
 # colored GCC warnings and errors
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
-export MOZ_X11_EGL=1
-export USER=sunderle
-export MAIL="marvin@42.fr"
 
 #Norminette and stuff
 # alias norminette="~/.norminette/norminette.rb"
