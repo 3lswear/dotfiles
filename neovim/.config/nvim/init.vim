@@ -99,10 +99,14 @@ set ttyfast
 nmap <leader>u mQviwU`Q
 nmap <leader>l mQviwu`Q
 
+set wildcharm=<C-z>
+nnoremap <leader>b :buffer <C-z>
+
 set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
 
 set number relativenumber
 set cursorline cursorcolumn
+set colorcolumn=80
 set nofoldenable
 set wrap
 set linebreak
