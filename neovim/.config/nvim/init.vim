@@ -106,6 +106,7 @@ set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNO
 
 set number relativenumber
 set cursorline cursorcolumn
+set smartindent
 set colorcolumn=80
 set nofoldenable
 set wrap
@@ -114,12 +115,14 @@ set hlsearch
 set ignorecase
 set smartcase
 set splitbelow splitright
-set scrolloff=7
+set scrolloff=7 sidescrolloff=5
 set mouse=a
 set iskeyword+=-                      	" treat dash separated words as a word text object"
 set noshowmode                          " We don't need to see things like -- INSERT -- anymore
 set formatoptions-=cro                  " Stop newline continution of comments
-set smartindent                         " Makes indenting smart
+set completeopt+=menuone
+set autoread
+set inccommand=nosplit
 " Statusline always active
 set laststatus=2
 
