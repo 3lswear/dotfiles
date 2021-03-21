@@ -119,16 +119,26 @@ alias free='free -m'                      # show sizes in MB
 alias np='nano -w PKGBUILD'
 alias more=less
 alias SS="sudo systemctl"
+
 alias p="sudo pacman --color auto"
 alias yay="yay --aur --color auto"
+
 alias vimrc="$EDITOR ~/.config/nvim/init.vim"
-alias vishellrc="$EDITOR ~/.zshrc"
+alias vishellrc="$EDITOR ~/.zshrc && shellrc"
+alias shellrc="echo '[*] Sourcing shell rc file... '; source ~/.zshrc"
+
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+
 alias open='f(){ xdg-open "$@" &>/dev/null ;  unset -f f; }; f'
+alias svim="EDITOR=nvim sudoedit"
+
 alias igt="sudo intel_gpu_top"
+
 alias tlp="sudo tlp"
 alias tlp-stat="sudo tlp-stat"
-alias shellrc="source ~/.zshrc"
+
+alias podsos="nc localhost 4000"
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(echo $history[$HISTCMD] |sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
 #color tha man if using less
 man() {
