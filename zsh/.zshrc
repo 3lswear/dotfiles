@@ -71,7 +71,7 @@ ZSH_CUSTOM=/usr/share/zsh
 plugins=(git zsh-completions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
-source virtualenvwrapper.sh
+# source virtualenvwrapper.sh
 
 # User configuration
 
