@@ -5,6 +5,7 @@ export PATH="$PATH:/home/roman/local/share/nvim/plugged/vim-prettier/node_module
 export PATH=~/.npm-global/bin:$PATH
 
 export EDITOR=nvim
+export DIFFPROG="nvim -d "
 export PAGER=less
 
 # firefox options
@@ -17,3 +18,4 @@ export MAIL="marvin@42.fr"
 
 export GTK_USE_PORTAL=1
 
+export DOTNET_CLI_TELEMETRY_OPTOUT=1
