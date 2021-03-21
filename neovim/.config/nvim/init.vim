@@ -10,9 +10,12 @@ call plug#begin('~/local/share/nvim/plugged')
 	" Plug 'tpope/vim-sensible'
 	" Plug 'tpope/vim-repeat'
 
-	" TreeShitter (EXPERIMENTAL) (only nvim-nightly)
-	" Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+	if has('nvim-0.5.0-dev+927-g52e660e85')
 
+	" TreeShitter (EXPERIMENTAL) (only nvim-nightly)
+	Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
+	endif
 	" COMMENTS
 	Plug 'tpope/vim-commentary'
 	source ~/.config/nvim/comments.vim
@@ -38,7 +41,7 @@ call plug#begin('~/local/share/nvim/plugged')
 	" SYNTAX HIGLIGHT
 	" Plug 'vim-syntastic/syntastic'
 	" Plug 'sheerun/vim-polyglot'
-	Plug 'StanAngeloff/php.vim'
+	" Plug 'StanAngeloff/php.vim'
 	" Java
 	Plug 'uiiaoo/java-syntax.vim'
 
@@ -71,7 +74,7 @@ call plug#begin('~/local/share/nvim/plugged')
 	"      \ 'coc-diagnostic',
 	"      \]
 	" LangServer
-
+	
 call plug#end()
 
 " From mr barutkin
@@ -142,7 +145,7 @@ if !has("gui_running")
     "set term=screen-256color
 endif
 
-set guifont="Fira Code":11
+" set guifont="Fira Code":11
 " fix cursor display in cygwin
 if has("win32unix")
     let &t_ti.="\e[1 q"
@@ -213,10 +216,17 @@ set clipboard+=unnamedplus
 "autocmd FileType help wincmd H
 
 " Neovide Stuff
-set guifont=Fira\ Code\ Medium:h10.5
+" set guifont=Fira\ Code\ Medium:h11.5
+set guifont=Fira\ Code\ Medium:h11.5
 
-" Attemp to fix php highlight
-
-syntax sync minlines=100
-syntax sync maxlines=240
-set synmaxcol=800
+if has('nvim-0.5.0-dev+927-g52e660e85')
+lua << EOF
+require'nvim-treesitter.configs'.setup {
+  ensure_installed = {"go", "php", "c"}, -- one of "all", "maintained" (parsers with maintainers), or a list of languages
+  highlight = {
+	enable = true,              -- false will disable the whole extension
+	disable = {},  -- list of language that will be disabled
+  },
+}
+EOF
+endif
