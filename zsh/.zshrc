@@ -196,7 +196,7 @@ export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quo
 
 #Norminette and stuff
 # alias norminette="~/.norminette/norminette.rb"
-alias norminette="norminette_linux"
+# alias norminette="norminette_linux"
 alias norm='norminette -R CheckForbiddenSourceHeader'
 
 # PIP autocomplete
