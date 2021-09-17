@@ -2,6 +2,7 @@ setglobal nocompatible
 let mapleader="\<Space>"
 
 call plug#begin('~/local/share/nvim/plugged')
+call plug#begin('~/.local/share/nvim/plugged')
 
 	"Plug 'tmhedberg/SimpylFold'
 	"Plug 'Valloric/YouCompleteMe'
