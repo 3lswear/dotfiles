@@ -240,8 +240,9 @@ set clipboard+=unnamedplus
 "autocmd FileType help wincmd H
 
 " Neovide Stuff
-" set guifont=Fira\ Code\ Medium:h11.5
-set guifont=Fira\ Code\ Medium:h11.5
+" set guifont=Fira\ Code:h11
+" set guifont=Jetbrains\ Mono\ Medium:h11
+" source ~/.config/nvim/ginit.vim
 
 if has('nvim-0.5.0-dev+927-g52e660e85')
 lua << EOF
