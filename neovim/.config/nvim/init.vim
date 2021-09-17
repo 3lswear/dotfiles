@@ -34,7 +34,9 @@ call plug#begin('~/.local/share/nvim/plugged')
 	" Plug 'vim-airline/vim-airline'
 	" Plug 'vim-airline/vim-airline-themes'
 	Plug 'itchyny/lightline.vim'
-	Plug 'taohexxx/lightline-buffer'
+	" Plug 'taohexxx/lightline-buffer'
+	Plug 'mengelbrecht/lightline-bufferline'
+	Plug 'itchyny/vim-gitbranch'
 	source ~/.config/nvim/lightline.vim
 
 	" FILE TREE
