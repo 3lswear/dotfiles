@@ -1,7 +1,6 @@
 setglobal nocompatible
 let mapleader="\<Space>"
 
-call plug#begin('~/local/share/nvim/plugged')
 call plug#begin('~/.local/share/nvim/plugged')
 
 	"Plug 'tmhedberg/SimpylFold'
@@ -16,6 +15,10 @@ call plug#begin('~/.local/share/nvim/plugged')
 	" TreeShitter (EXPERIMENTAL) (only nvim-nightly)
 	Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
+	" Telescope.nvim
+	Plug 'nvim-lua/popup.nvim'
+	Plug 'nvim-lua/plenary.nvim'
+	Plug 'nvim-telescope/telescope.nvim'
 	endif
 	" COMMENTS
 	Plug 'tpope/vim-commentary'
@@ -75,6 +78,8 @@ call plug#begin('~/.local/share/nvim/plugged')
 	"      \ 'coc-diagnostic',
 	"      \]
 	" LangServer
+	" Telescope-project
+	Plug 'nvim-telescope/telescope-project.nvim'
 	
 call plug#end()
 
