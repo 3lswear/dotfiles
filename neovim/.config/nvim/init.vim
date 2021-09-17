@@ -11,7 +11,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 	" Plug 'tpope/vim-sensible'
 	" Plug 'tpope/vim-repeat'
 
-	if has('nvim-0.5.0-dev+927-g52e660e85')
+	if has('nvim-0.5.0')
 
 	" TreeShitter (EXPERIMENTAL) (only nvim-nightly)
 	Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
