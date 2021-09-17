@@ -230,6 +230,9 @@ set softtabstop=0 noexpandtab
 set shiftwidth=4
 set smarttab                            " Makes tabbing smarter will realize you have 2 vs 4
 
+" Backspace to previous buffer
+nnoremap <Backspace> <C-^>
+
 " Set system clipboard
 set clipboard+=unnamedplus
 
