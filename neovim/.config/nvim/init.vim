@@ -126,9 +126,7 @@ nmap <leader>u mQviwU`Q
 nmap <leader>l mQviwu`Q
 
 set wildcharm=<C-z>
-nnoremap <leader>b :buffer <C-z>
-
-set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
+" nnoremap <leader>b :buffer <C-z>
 
 set number relativenumber
 set cursorline cursorcolumn
