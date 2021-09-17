@@ -244,7 +244,19 @@ set clipboard+=unnamedplus
 " set guifont=Jetbrains\ Mono\ Medium:h11
 " source ~/.config/nvim/ginit.vim
 
-if has('nvim-0.5.0-dev+927-g52e660e85')
+if exists('g:neoray')
+    " set guifont=Fira_Code_Medium:h11
+	set guifont=:h8
+    " let neoray_cursor_animation_time=0.07
+    " let neoray_background_transparency=0.95
+    " let neoray_target_ticks_per_second=120
+    " let neoray_context_menu_enabled=1
+    " let neoray_window_startup_state='centered'
+    " let neoray_window_startup_size='120x40'
+    " let neoray_key_toggle_fullscreen='<M-C-CR>' " AltGr+Enter
+    " let neoray_key_increase_fontsize='<C-ScrollWheelUp>'
+    " let neoray_key_decrease_fontsize='<C-ScrollWheelDown>'
+endif
 lua << EOF
 require'nvim-treesitter.configs'.setup {
   ensure_installed = {"go", "php", "c"}, -- one of "all", "maintained" (parsers with maintainers), or a list of languages
