@@ -211,7 +211,7 @@ set background=dark
 
 " Enabling persistent undo
 if has('persistent_undo')         "check if your vim version supports
-  set undodir=$HOME/.vim/undo     "directory where the undo files will be stored
+  set undodir=$HOME/.local/share/nvim/undo/     "directory where the undo files will be stored
   set undofile                    "turn on the feature
 endif
 
