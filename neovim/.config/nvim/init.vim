@@ -87,6 +87,9 @@ call plug#begin('~/.local/share/nvim/plugged')
 	" Colorizer
 
 	Plug 'norcalli/nvim-colorizer.lua'
+
+	"Nvim-qt gui fix
+	Plug 'equalsraf/neovim-gui-shim'
 	" Telescope-project
 	Plug 'nvim-telescope/telescope-project.nvim'
 	
