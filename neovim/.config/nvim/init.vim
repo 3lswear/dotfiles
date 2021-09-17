@@ -252,4 +252,9 @@ require'nvim-treesitter.configs'.setup {
   },
 }
 EOF
+
+if $USER == 'root'
+	" colorscheme gruvbox
+	set background=light
 endif
+" endif
