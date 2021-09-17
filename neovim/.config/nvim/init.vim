@@ -90,6 +90,11 @@ call plug#begin('~/.local/share/nvim/plugged')
 
 	"Nvim-qt gui fix
 	Plug 'equalsraf/neovim-gui-shim'
+
+	" Gitgutter in lua
+	Plug 'nvim-lua/plenary.nvim'
+	Plug 'lewis6991/gitsigns.nvim'
+
 	" Telescope-project
 	Plug 'nvim-telescope/telescope-project.nvim'
 	
