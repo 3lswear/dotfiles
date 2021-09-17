@@ -133,7 +133,7 @@ set cursorline cursorcolumn
 set smartindent
 set colorcolumn=80
 set nofoldenable
-set wrap
+set nowrap
 set linebreak
 set hlsearch
 set ignorecase
