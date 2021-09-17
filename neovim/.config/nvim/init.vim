@@ -257,6 +257,9 @@ if exists('g:neoray')
     " let neoray_key_increase_fontsize='<C-ScrollWheelUp>'
     " let neoray_key_decrease_fontsize='<C-ScrollWheelDown>'
 endif
+
+" Lua colorizer setup
+lua require'colorizer'.setup()
 lua << EOF
 require'nvim-treesitter.configs'.setup {
   ensure_installed = {"go", "php", "c"}, -- one of "all", "maintained" (parsers with maintainers), or a list of languages
