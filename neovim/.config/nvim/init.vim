@@ -27,7 +27,8 @@ call plug#begin('~/.local/share/nvim/plugged')
 	" COLOR SCHEMES
 	Plug 'overcache/NeoSolarized'
 	" Plug 'altercation/vim-colors-solarized'
-	" Plug 'tomasiser/vim-code-dark'
+	Plug 'tomasiser/vim-code-dark'
+	" Plug 'morhetz/gruvbox'
 
 	" STATUS BAR
 	" Plug 'vim-airline/vim-airline'
