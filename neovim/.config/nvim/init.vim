@@ -50,7 +50,10 @@ call plug#begin('~/.local/share/nvim/plugged')
 	" Plug 'sheerun/vim-polyglot'
 	" Plug 'StanAngeloff/php.vim'
 	" Java
-	Plug 'uiiaoo/java-syntax.vim'
+	" Plug 'uiiaoo/java-syntax.vim'
+
+	" TOML support
+	" Plug 'cespare/vim-toml'
 
 	" CODE COMPLETION
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
