@@ -84,6 +84,9 @@ call plug#begin('~/.local/share/nvim/plugged')
 	"      \ 'coc-diagnostic',
 	"      \]
 	" LangServer
+	" Colorizer
+
+	Plug 'norcalli/nvim-colorizer.lua'
 	" Telescope-project
 	Plug 'nvim-telescope/telescope-project.nvim'
 	
