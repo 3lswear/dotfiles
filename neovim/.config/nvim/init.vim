@@ -260,6 +260,9 @@ endif
 
 " Lua colorizer setup
 lua require'colorizer'.setup()
+" set up telescope
+
+source ~/.config/nvim/telescope.vim
 lua << EOF
 require'nvim-treesitter.configs'.setup {
   ensure_installed = {"go", "php", "c"}, -- one of "all", "maintained" (parsers with maintainers), or a list of languages
