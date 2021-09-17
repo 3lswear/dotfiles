@@ -260,9 +260,25 @@ endif
 
 " Lua colorizer setup
 lua require'colorizer'.setup()
+
+" my stuff
+" do not consider '-' as a word separator in c files
+autocmd BufWritePre,BufRead *.c set iskeyword-=-
+autocmd BufWritePre,BufRead *.rt setf conf
+
+" close all buffers but current
+command! BufOnly silent! call Preserve("exec '%bd|e#|bd#'")
+hi DiffAdd guifg=NONE guibg=#4b5632
+" set up gitgutter
+lua << EOF
+require('gitsigns').setup()
+EOF
 " set up telescope
 
 source ~/.config/nvim/telescope.vim
+
+" if has('nvim-0.5.0-dev+927-g52e660e85')
+" TreeShitter config
 lua << EOF
 require'nvim-treesitter.configs'.setup {
   ensure_installed = {"go", "php", "c"}, -- one of "all", "maintained" (parsers with maintainers), or a list of languages
