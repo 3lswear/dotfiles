@@ -242,7 +242,7 @@ set smarttab                            " Makes tabbing smarter will realize you
 nnoremap <Backspace> <C-^>
 
 " Set system clipboard
-set clipboard+=unnamedplus
+" set clipboard+=unnamedplus
 
 " Open help in vsplit
 "autocmd FileType help wincmd H
