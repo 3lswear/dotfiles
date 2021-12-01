@@ -322,6 +322,8 @@ lua << EOF
     -- refer to the configuration section below
   }
 EOF
+
+source ~/.config/nvim/syntastic.vim
 let g:termdebug_wide=1
 packadd termdebug
 let g:termdebug_popup=0
