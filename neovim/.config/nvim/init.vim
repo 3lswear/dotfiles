@@ -253,6 +253,28 @@ nnoremap <Backspace> <C-^>
 " set guifont=Fira\ Code:h11
 " set guifont=Jetbrains\ Mono\ Medium:h11
 " source ~/.config/nvim/ginit.vim
+"
+augroup vimStartup
+	au!
+
+	" When editing a file, always jump to the last known cursor position.
+	" Don't do it when the position is invalid or when inside an event handler
+	" (happens when dropping a file on gvim).
+	autocmd BufReadPost *
+				\ if line("'\"") >= 1 && line("'\"") <= line("$") |
+				\   exe "normal! g`\"" |
+				\ endif
+
+augroup END
+
+set title
+
+
+if !exists(":DiffOrig")
+  command DiffOrig vert new | set bt=nofile | r ++edit # | 0d_ | diffthis
+		  \ | wincmd p | diffthis
+endif
+
 
 if exists('g:neoray')
     " set guifont=Fira_Code_Medium:h11
