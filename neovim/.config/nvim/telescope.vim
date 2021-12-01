@@ -12,7 +12,32 @@ nnoremap <leader>gf <cmd>Telescope git_files<cr>
 " nnoremap <leader>fh <cmd>lua require('telescope.builtin').help_tags()<cr>
 "
 " Telescope-project
+
+" nnoremap <leader>p <cmd>Telescope project<cr>
+
+lua << EOF
+vim.api.nvim_set_keymap(
+    'n',
+    '<leader>p',
+    ":lua require'telescope'.extensions.project.project{ display_type = 'full'}<CR>",
+    {noremap = true, silent = true}
+)
+
+require('telescope').setup {
+	defaults = {
+		path_display = { shorten = 4 }
+	},
+	extensions = {
+		project = {
+			base_dirs = {
+				{'~/work/2_ecole/github/', max_depth = 2},
+			}
+		}
+	}
+}
+EOF
 lua require'telescope'.load_extension('project')
+" lua require'telescope'.extensions.project.project{ display_type = 'full' }
 
 
 nnoremap <leader>p <cmd>Telescope project<cr>
