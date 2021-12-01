@@ -322,6 +322,10 @@ lua << EOF
     -- refer to the configuration section below
   }
 EOF
+let g:termdebug_wide=1
+packadd termdebug
+let g:termdebug_popup=0
+
 if $USER == 'root'
 	" colorscheme gruvbox
 	set background=light
