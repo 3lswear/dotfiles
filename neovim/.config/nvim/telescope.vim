@@ -40,15 +40,21 @@ lua require'telescope'.load_extension('project')
 " lua require'telescope'.extensions.project.project{ display_type = 'full' }
 
 
-nnoremap <leader>p <cmd>Telescope project<cr>
 lua << EOF
 require('telescope').setup {
-  extensions = {
-    project = {
-      base_dirs = {
-        {'~/work/2_ecole/', max_depth = 4},
+  pickers = {
+    buffers = {
+      show_all_buffers = true,
+      sort_lastused = true,
+      -- theme = "ivy",
+      mappings = {
+        i = {
+          ["<c-d>"] = "delete_buffer",
+        }
       }
+    }
   }
 }
-}
 EOF
+
+
