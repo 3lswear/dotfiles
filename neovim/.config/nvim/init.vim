@@ -162,7 +162,7 @@ set laststatus=2
 set encoding=utf-8
 
 set termguicolors
-set autochdir
+" set autochdir
 
 " Tmux hack
 set t_8f=^[[38;2;%lu;%lu;%lum
