@@ -2,8 +2,8 @@
 set hidden  " allow buffer switching without saving
 set showtabline=2  " always show tabline
 " remap arrow keys
-nnoremap <silent><Left> :bprev<CR>
-nnoremap <silent><Right> :bnext<CR>
+" nnoremap <silent><Left> :bprev<CR>
+" nnoremap <silent><Right> :bnext<CR>
 
 let g:lightline = {
 	\ 'colorscheme': 'solarized',
@@ -11,15 +11,8 @@ let g:lightline = {
 	\   'left': [ [ 'mode', 'paste' ], [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
 	\ },
 	\ 'tabline': {
-	\   'left': [ ['buffers'] ],
-	\   'right': [ ['tabs'] ],
+	\   'left': [ ['tabs'] ],
 	\	'top': [ ['tabs'] ]
-	\ },
-	\ 'component_expand': {
-	\   'buffers': 'lightline#bufferline#buffers'
-	\ },
-	\ 'component_type': {
-	\   'buffers': 'tabsel'
 	\ },
 	\ 'component_function': {
 	\   'gitbranch': 'gitbranch#name'
