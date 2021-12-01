@@ -325,5 +325,6 @@ EOF
 if $USER == 'root'
 	" colorscheme gruvbox
 	set background=light
+	set wrap
 endif
 " endif
