@@ -11,14 +11,13 @@ call plug#begin('~/.local/share/nvim/plugged')
 	" Plug 'tpope/vim-repeat'
 
 	if has('nvim-0.5.0')
+		" TreeShitter (EXPERIMENTAL) (only nvim-nightly)
+		Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
-	" TreeShitter (EXPERIMENTAL) (only nvim-nightly)
-	Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-
-	" Telescope.nvim
-	Plug 'nvim-lua/popup.nvim'
-	Plug 'nvim-lua/plenary.nvim'
-	Plug 'nvim-telescope/telescope.nvim'
+		" Telescope.nvim
+		Plug 'nvim-lua/popup.nvim'
+		Plug 'nvim-lua/plenary.nvim'
+		Plug 'nvim-telescope/telescope.nvim'
 	endif
 	" COMMENTS
 	Plug 'tpope/vim-commentary'
