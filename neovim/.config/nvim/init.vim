@@ -97,6 +97,15 @@ call plug#begin('~/.local/share/nvim/plugged')
 
 	" Telescope-project
 	Plug 'nvim-telescope/telescope-project.nvim'
+
+	" Linter and norminette checker
+	" Plug 'vim-syntastic/syntastic'
+	Plug 'alexandregv/norminette-vim'
+
+	" ALE
+	" Plug 'dense-analysis/ale'
+	Plug 'folke/which-key.nvim'
+
 	
 call plug#end()
 
