@@ -324,6 +324,8 @@ lua << EOF
 EOF
 
 source ~/.config/nvim/syntastic.vim
+" add templates/skeletons
+source ~/.config/nvim/template.vim
 let g:termdebug_wide=1
 packadd termdebug
 let g:termdebug_popup=0
