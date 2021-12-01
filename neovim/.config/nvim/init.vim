@@ -137,7 +137,7 @@ nmap <leader>l mQviwu`Q
 set wildcharm=<C-z>
 " nnoremap <leader>b :buffer <C-z>
 
-set number relativenumber
+set number
 set cursorline cursorcolumn
 set smartindent
 set colorcolumn=80
