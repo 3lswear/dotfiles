@@ -197,6 +197,8 @@ let g:NERDTreeChDirMode=2
 " If more than one window and previous buffer was NERDTree, go back to it.
 autocmd BufEnter * if bufname('#') =~# "^NERD_tree_" && winnr('$') > 1 | b# | endif
 
+autocmd FileType c compiler norminette
+
 " Avoid crashes when calling plug commands in NERDTree buffer
 let g:plug_window = 'noautocmd vertical topleft new'
 
