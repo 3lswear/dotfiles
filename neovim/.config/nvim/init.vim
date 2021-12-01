@@ -312,6 +312,16 @@ require'nvim-treesitter.configs'.setup {
 }
 EOF
 
+" which-key.nvim
+"
+
+lua << EOF
+  require("which-key").setup {
+    -- your configuration comes here
+    -- or leave it empty to use the default settings
+    -- refer to the configuration section below
+  }
+EOF
 if $USER == 'root'
 	" colorscheme gruvbox
 	set background=light
