@@ -326,6 +326,9 @@ let g:termdebug_wide=1
 packadd termdebug
 let g:termdebug_popup=0
 
+map <leader>k :pyf /usr/share/clang/clang-format.py<cr>
+
+
 if $USER == 'root'
 	" colorscheme gruvbox
 	set background=light
