@@ -20,7 +20,8 @@ call plug#begin('~/.local/share/nvim/plugged')
 		Plug 'nvim-telescope/telescope.nvim'
 	endif
 	" COMMENTS
-	Plug 'tpope/vim-commentary'
+	" Plug 'tpope/vim-commentary'
+	Plug 'tomtom/tcomment_vim'
 	source ~/.config/nvim/comments.vim
 
 	" COLOR SCHEMES
