@@ -107,6 +107,8 @@ call plug#begin('~/.local/share/nvim/plugged')
 	" Plug 'dense-analysis/ale'
 	Plug 'folke/which-key.nvim'
 
+	Plug 'nvim-treesitter/nvim-treesitter-context'
+
 	
 call plug#end()
 
