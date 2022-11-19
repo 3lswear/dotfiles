@@ -40,7 +40,8 @@ call plug#begin('~/.local/share/nvim/plugged')
 	source ~/.config/nvim/lightline.vim
 
 	" FILE TREE
-	Plug 'scrooloose/nerdtree'
+	" Plug 'scrooloose/nerdtree'
+	Plug 'lambdalisue/fern.vim'
 
 	" 42 School Header
 	Plug 'pbondoer/vim-42header'
