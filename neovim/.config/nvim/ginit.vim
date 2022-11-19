@@ -1,6 +1,7 @@
 GuiRenderLigatures 1
 
-GuiFont! Jetbrains Mono:h11
+" GuiFont! Jetbrains Mono:h11
+GuiFont! Fira Code:h12
 " Set Editor Font
 " if exists(':GuiFont')
 "     " Use GuiFont! to ignore font errors
