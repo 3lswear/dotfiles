@@ -195,11 +195,29 @@ endif
 
 " NerdTree Stuff
 "nmap <C-m> :NERDTreeFind<CR>
-nmap <silent> <leader><leader> :NERDTreeToggle<CR>
+" nmap <silent> <leader><leader> :NERDTreeToggle<CR>
 let g:NERDTreeChDirMode=2
+
 
 " If more than one window and previous buffer was NERDTree, go back to it.
 autocmd BufEnter * if bufname('#') =~# "^NERD_tree_" && winnr('$') > 1 | b# | endif
+
+" netrw
+" no banner
+let g:netrw_banner=0
+" reuse split
+let g:netrw_browse_split = 4
+" size
+let g:netrw_winsize = -28
+" tree-view
+let g:netrw_liststyle = 3
+
+let g:netrw_list_hide = '\(^\|\s\s\)\zs\.\S\+,\(^\|\s\s\)ntuser\.\S\+'
+" nmap <silent> <leader><leader> :Lexplore<CR>
+"
+nmap <silent> <leader>t :Fern . -reveal=% -drawer<CR>
+
+autocmd FileType netrw set nolist
 
 autocmd FileType c compiler norminette
 
@@ -292,7 +310,10 @@ lua require'colorizer'.setup()
 " my stuff
 " do not consider '-' as a word separator in c files
 autocmd BufWritePre,BufRead *.c set iskeyword-=-
+autocmd BufWritePre,BufRead *.cpp set iskeyword-=-
 autocmd BufWritePre,BufRead *.rt setf conf
+
+autocmd CursorHold,CursorHoldI * checktime
 
 " close all buffers but current
 command! BufOnly silent! call Preserve("exec '%bd|e#|bd#'")
@@ -332,7 +353,8 @@ EOF
 
 source ~/.config/nvim/syntastic.vim
 " add templates/skeletons
-source ~/.config/nvim/template.vim
+" source ~/.config/nvim/template.vim
+
 " source ~/.config/nvim/ale.vim
 
 let g:termdebug_wide=1
