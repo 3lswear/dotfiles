@@ -1,0 +1,1418 @@
+[Audio Preview Settings]
+Autoplay=false
+
+[Complete]
+CompleteAutoThreshold=2
+completeAutoAbbrev=true
+completeShowAbbrev=true
+
+[Desktop Entry]
+DefaultProfile=Profile 2.profile
+
+[Document-Settings,URL=file://:@/home/roman/Documents/bachelor-diploma/inc/0-bibliography.tex]
+Bookmarks=
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+bibliographyBackendAutoDetected=
+bibliographyBackendUserOverride=
+kile_livePreviewEnabled=true
+kile_livePreviewStatusUserSpecified=false
+kile_livePreviewTool=LivePreview-XeLaTeX
+
+[Document-Settings,URL=file://:@/home/roman/Documents/bachelor-diploma/inc/2-oop.tex]
+Bookmarks=
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+bibliographyBackendAutoDetected=
+bibliographyBackendUserOverride=
+kile_livePreviewEnabled=true
+kile_livePreviewStatusUserSpecified=false
+kile_livePreviewTool=LivePreview-XeLaTeX
+
+[Document-Settings,URL=file://:@/home/roman/Documents/bachelor-diploma/inc/_old/0-bibliography.tex]
+Bookmarks=
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+bibliographyBackendAutoDetected=
+bibliographyBackendUserOverride=
+kile_livePreviewEnabled=true
+kile_livePreviewStatusUserSpecified=false
+kile_livePreviewTool=LivePreview-XeLaTeX
+
+[Document-Settings,URL=file://:@/home/roman/Documents/bachelor-diploma/main.toc]
+Bookmarks=
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+
+[Favorite Profiles]
+Favorites=
+
+[FileBrowserWidget]
+Allow Expansion=false
+Decoration position=2
+Show Inline Previews=true
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort reversed=false
+View Style=Tree
+treeViewIconSize=16
+
+[Files]
+LastDocument[$e]=$HOME/Documents/bachelor-diploma/inc/0-bibliography.tex
+SingleFileMasterDocument[$e]=$HOME/Documents/bachelor-diploma/main.tex
+lastDir[$e]=$HOME/Documents/bachelor-diploma/inc/
+
+[FilesOpenOnStart]
+DocsOpenOnStart0[$e]=$HOME/Documents/bachelor-diploma/main.tex
+DocsOpenOnStart1[$e]=$HOME/Documents/bachelor-diploma/inc/0-bibliography.tex
+DocsOpenOnStart2[$e]=$HOME/Documents/bachelor-diploma/inc/preamble.tex
+DocsOpenOnStart3[$e]=$HOME/Documents/bachelor-diploma/inc/1-ass.tex
+DocsOpenOnStart4[$e]=$HOME/Documents/bachelor-diploma/inc/2-oop.tex
+EncodingsOfDocsOpenOnStart0[$e]=UTF-8
+EncodingsOfDocsOpenOnStart1[$e]=UTF-8
+EncodingsOfDocsOpenOnStart2[$e]=UTF-8
+EncodingsOfDocsOpenOnStart3[$e]=UTF-8
+EncodingsOfDocsOpenOnStart4[$e]=UTF-8
+NoDOOS=5
+NoPOOS=1
+ProjectsOpenOnStart0[$e]=$HOME/Documents/bachelor-thesis.kilepr
+
+[Geometries]
+MainwindowHeight=955
+MainwindowWidth=1920
+horizontalSplitterLeft=315
+horizontalSplitterRight=821
+verticalSplitterBottom=278
+verticalSplitterTop=605
+
+[IncludeGraphics]
+imagemagick=true
+
+[KFileDialog Settings]
+Recent Files[$e]=BACKUP/roman/roman/Documents/qeq.tex,file:$HOME/Documents/bachelor-diploma/main.tex,file:$HOME/Documents/bachelor-diploma/inc/preamble.tex,file:$HOME/Documents/bachelor-diploma/inc/0-intro.tex,file:$HOME/Documents/bachelor-diploma/inc/1-ass.tex,file:$HOME/Documents/bachelor-diploma/inc/0-bibliography.tex,file:$HOME/Documents/bachelor-diploma/inc/2-oop.tex,file:///media/winssd/misc/bachelor_thesis/dissertation.tex,file:///media/winssd/misc/bachelor_thesis/Dissertation/images/drawing.pdf,file:///media/winssd/misc/bachelor_thesis/Dissertation/images/README.md,file:///media/winssd/misc/bachelor_thesis/Dissertation/images/tikz_scheme.tikz,file:$HOME/Documents/1.2.pdf,file:///media/hdd/Data/Documents/_documents/_univ/_ВКР/диплом/1.tex,file:$HOME/Documents/tex/course/week1/1.2.tex,file:$HOME/Documents/LATEX1.tex,file:$HOME/Documents/article.tex
+Recent URLs[$e]=file:$HOME/,file:$HOME/Documents/tex/course/,file:$HOME/Documents/tex/course/week1/,file:$HOME/Documents/tex/,file:///media/hdd/Data/Documents/_documents/_univ/_ВКР/диплом/,file:///media/winssd/misc/bachelor_thesis/,file:///media/winssd/misc/,file:///media/winssd/misc/bachelor_thesis/Dissertation/images/,file:///media/winssd/,file:$HOME/Documents/bachelor-diploma/inc/,file:$HOME/Documents/bachelor-diploma/
+detailViewIconSize=16
+eDP-1 Height 1080=570
+eDP-1 Height 1920x1080=600
+eDP-1 Width 1920=925
+eDP-1 Width 1920x1080=960
+eDP1 Height 1080=570
+eDP1 Height 1920x1080=570
+eDP1 Width 1920=925
+eDP1 Width 1920x1080=925
+
+[KPropertiesDialog]
+eDP-1 Height 1920x1080=546
+eDP-1 Width 1920x1080=534
+
+[KTextEditor Document]
+Allow End of Line Detection=true
+BOM=false
+Backup Local=false
+Backup Prefix=
+Backup Remote=false
+Backup Suffix=~
+Camel Cursor=true
+Encoding=UTF-8
+End of Line=0
+Indent On Backspace=true
+Indent On Tab=true
+Indent On Text Paste=false
+Indentation Mode=normal
+Indentation Width=4
+Keep Extra Spaces=false
+Line Length Limit=10000
+Newline at End of File=true
+On-The-Fly Spellcheck=true
+Overwrite Mode=false
+PageUp/PageDown Moves Cursor=false
+Remove Spaces=0
+ReplaceTabsDyn=false
+Show Spaces=0
+Show Tabs=true
+Smart Home=true
+Swap Directory=
+Swap File Mode=1
+Swap Sync Interval=15
+Tab Handling=2
+Tab Width=4
+Trailing Marker Size=1
+Word Wrap=false
+Word Wrap Column=80
+
+[KTextEditor Editor]
+Encoding Prober Type=1
+Fallback Encoding=ISO 8859-15
+
+[KTextEditor Renderer]
+Animate Bracket Matching=false
+Auto Color Theme Selection=true
+Color Theme=Breeze Light
+Font=JetBrains Mono,10,-1,5,50,0,0,0,0,0
+Schema=Normal
+Show Indentation Lines=true
+Show Whole Bracket Expression=false
+Word Wrap Marker=false
+
+[KTextEditor View]
+Allow Mark Menu=true
+Auto Brackets=true
+Auto Center Lines=0
+Auto Completion=true
+Auto Completion Preselect First Entry=true
+Backspace Remove Composed Characters=false
+Bookmark Menu Sorting=0
+Bracket Match Preview=false
+Chars To Enclose Selection=
+Default Mark Type=1
+Dynamic Word Wrap=true
+Dynamic Word Wrap Align Indent=80
+Dynamic Word Wrap At Static Marker=false
+Dynamic Word Wrap Indicators=1
+Dynamic Wrap not at word boundaries=false
+Fold First Line=false
+Folding Bar=true
+Folding Preview=true
+Icon Bar=false
+Input Mode=0
+Keyword Completion=true
+Line Modification=true
+Line Numbers=true
+Maximum Search History Size=100
+Mouse Paste At Cursor Position=false
+Persistent Selection=false
+Scroll Bar Marks=false
+Scroll Bar Mini Map All=true
+Scroll Bar Mini Map Width=60
+Scroll Bar MiniMap=true
+Scroll Bar Preview=true
+Scroll Past End=false
+Search/Replace Flags=140
+Show Line Count=true
+Show Scrollbars=0
+Show Word Count=false
+Smart Copy Cut=false
+Text Drag And Drop=true
+User Sets Of Chars To Enclose Selection=
+Vi Input Mode Steal Keys=false
+Vi Relative Line Numbers=false
+Word Completion=true
+Word Completion Minimal Word Length=2
+Word Completion Remove Tail=true
+
+[KTextEditor::Search]
+Search History=fixme,itemize,наследующ,прозрач,captions,monofo,relsize,содержа,thepage,page,font,ассемблере,список,enumer,``,newenvi,виртуальной,mono,номер
+
+[KileConfigDialog]
+eDP-1 Window-Maximized 1080x1920=true
+
+[KileMainWindow]
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAN0AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAUAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGAB0AG8AbwBsAHMAVABvAG8AbABCAGEAcgEAAAJq/////wAAAAAAAAAAAAAAFgBlAGQAaQB0AFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAABYAbQBhAHQAaABUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAAAAAAmAE8AawB1AGwAYQByAFYAaQBlAHcAZQByAFQAbwBvAGwAQgBhAHIBAAAEiP////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+eDP-1 Height 1080=667
+eDP-1 Height 1920x1080=816
+eDP-1 Width 1920=1233
+eDP-1 Width 1920x1080=1459
+eDP-1 Window-Maximized 1080x1920=true
+eDP-1 Window-Maximized 1920x1080=true
+eDP-1 XPosition=70
+eDP-1 XPosition 1920x1080=0
+eDP-1 YPosition=56
+eDP-1 YPosition 1920x1080=59
+eDP-1-1 Height 1080=667
+eDP-1-1 Width 1920=1233
+eDP-1-1 XPosition=358
+eDP-1-1 YPosition=149
+eDP1 Height 1080=1024
+eDP1 Width 1920=1850
+eDP1 Window-Maximized 1080x1920=true
+eDP1 Window-Maximized 1920x1080=true
+eDP1 XPosition=70
+eDP1 XPosition 1920x1080=70
+eDP1 YPosition=56
+eDP1 YPosition 1920x1080=56
+
+[MainWindow]
+MenuBar=Disabled
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAN0AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAUAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGAB0AG8AbwBsAHMAVABvAG8AbABCAGEAcgEAAAEH/////wAAAAAAAAAAAAAAFgBlAGQAaQB0AFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAABYAbQBhAHQAaABUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAAAAAAmAE8AawB1AGwAYQByAFYAaQBlAHcAZQByAFQAbwBvAGwAQgBhAHIBAAADJf////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+eDP-1 Window-Maximized 1080x1920=true
+eDP-1 Window-Maximized 1920x1080=true
+eDP-1 XPosition 1920x1080=0
+eDP-1 YPosition 1920x1080=59
+eDP1 Height 1920x1080=1024
+eDP1 Width 1920x1080=1850
+eDP1 Window-Maximized 1080x1920=true
+eDP1 XPosition=70
+eDP1 XPosition 1920x1080=0
+eDP1 YPosition=56
+eDP1 YPosition 1920x1080=0
+
+[MostFrequentlyUsedSymbols]
+counts=
+paths=
+
+[NewFileWizard]
+UseWizardWhenCreatingEmptyFile=true
+height=379
+width=527
+
+[Projects]
+File1[$e]=$HOME/Documents/bachelor_thesis.kilepr
+File2[$e]=$HOME/Documents/bachelor-thesis.kilepr
+Name1[$e]=bachelor_thesis.kilepr
+Name2[$e]=bachelor-thesis.kilepr
+
+[QuickPreview]
+convert=true
+dvipng=true
+envPreviewTool=1
+mathgroupPreviewTool=1
+previewTask=XeLaTeX ---> PDF (Okular)
+selPreviewTool=1
+
+[Recent Dirs]
+KILE_LATEX_SAVE_DIR[$e]=file:$HOME/Documents/tex/course/,$HOME/Documents
+
+[Recent Files]
+File1[$e]=$HOME/Documents/bachelor-diploma/inc/_old/0-bibliography.tex
+File2[$e]=$HOME/Documents/bachelor-diploma/inc/0-intro.tex
+File3[$e]=$HOME/Documents/bachelor-diploma/main.toc
+File4[$e]=$HOME/Documents/bachelor-diploma/main.tex
+File5[$e]=$HOME/Documents/bachelor-diploma/inc/0-bibliography.tex
+File6[$e]=$HOME/Documents/bachelor-diploma/inc/preamble.tex
+File7[$e]=$HOME/Documents/bachelor-diploma/inc/1-ass.tex
+File8[$e]=$HOME/Documents/bachelor-diploma/inc/2-oop.tex
+Name1[$e]=0-bibliography.tex
+Name2[$e]=0-intro.tex
+Name3[$e]=main.toc
+Name4[$e]=main.tex
+Name5[$e]=0-bibliography.tex
+Name6[$e]=preamble.tex
+Name7[$e]=1-ass.tex
+Name8[$e]=2-oop.tex
+
+[Scripting]
+ScriptNameColumnWidth=118
+
+[Session Settings]
+Documents=file://:@/home/roman/Documents/bachelor-diploma/main.toc
+Saved Documents=file://:@/home/roman/Documents/bachelor-diploma/main.toc,file://:@/tmp/kile-livepreview.BCtpGe/main.toc,file://:@/tmp/kile-livepreview.VLCcLZ/main.toc,file://:@/home/roman/Documents/bachelor-diploma/inc/0-bibliography.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/2-oop.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/1-ass.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/0-intro.tex,file://:@/home/roman/Documents/bachelor-diploma/main.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/2-oop.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/1-ass.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/0-intro.tex,file://:@/home/roman/Documents/bachelor-diploma/main.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/2-oop.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/1-ass.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/0-intro.tex,file://:@/home/roman/Documents/bachelor-diploma/main.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/0-intro.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/_old/0-bibliography.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/preamble.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/preamble.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/1-ass.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/0-intro.tex,file://:@/home/roman/Documents/bachelor-diploma/main.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/preamble.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/1-ass.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/0-intro.tex,file://:@/home/roman/Documents/bachelor-diploma/main.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/preamble.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/1-ass.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/0-intro.tex,file://:@/home/roman/Documents/bachelor-diploma/main.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/preamble.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/1-ass.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/0-intro.tex,file://:@/home/roman/Documents/bachelor-diploma/main.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/preamble.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/1-ass.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/0-intro.tex,file://:@/home/roman/Documents/bachelor-diploma/main.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/preamble.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/1-ass.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/0-intro.tex,file://:@/home/roman/Documents/bachelor-diploma/main.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/preamble.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/1-ass.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/0-intro.tex,file://:@/home/roman/Documents/bachelor-diploma/main.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/preamble.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/1-ass.tex,file://:@/home/roman/Documents/bachelor-diploma/inc/0-intro.tex
+
+[Show]
+BottomBarSize=238
+SelectedLeftView=1
+ShowSplashScreen=false
+SideBarSize=283
+SystemCheckLastVersionRunForAtStartUp=2.9.93
+
+[Tool/Archive/Tar]
+class=Archive
+command=tar
+from=kilepr
+options=cvf %S.tar %AFL
+to=tar
+type=Process
+
+[Tool/Archive/Tar + bzip2]
+class=Archive
+command=tar
+from=kilepr
+options=jcvf %S.tar.bz2 %AFL
+to=tar.bz2
+type=Process
+
+[Tool/Archive/Tar + gzip]
+class=Archive
+command=tar
+from=kilepr
+options=zcvf %S.tar.gz %AFL
+to=tar.gz
+type=Process
+
+[Tool/Archive/Zip]
+class=Archive
+command=zip
+from=kilepr
+options=%S.zip %AFL
+to=zip
+type=Process
+
+[Tool/Asymptote/Default]
+class=Compile
+command=asy
+from=asy
+options=%S
+to=
+type=Process
+
+[Tool/BibTeX/8bit Version]
+class=Bibliography
+command=bibtex8
+from=aux
+options=%S
+to=bbl
+type=Process
+
+[Tool/BibTeX/Default]
+class=Bibliography
+command=bibtex
+from=aux
+options=%S
+to=bbl
+type=Process
+
+[Tool/Biber/Default]
+class=Bibliography
+command=biber
+from=aux
+options=%S
+to=bbl
+type=Process
+
+[Tool/ConTeXt/DVI and PS]
+class=Compile
+command=texexec
+from=
+options=--dvi --nonstopmode %source
+to=dvi
+type=Process
+
+[Tool/ConTeXt/DVI and PS Draft]
+class=Compile
+command=texexec
+from=
+options=--dvi --draft --nonstopmode %source
+to=dvi
+type=Process
+
+[Tool/ConTeXt/PDF]
+class=Compile
+command=texexec
+from=
+options=--pdf --nonstopmode %source
+to=pdf
+type=Process
+
+[Tool/ConTeXt/PDF Draft]
+class=Compile
+command=texexec
+from=
+options=--pdf --draft --nonstopmode %source
+to=pdf
+type=Process
+
+[Tool/Convert/eps2png]
+class=Convert
+command=convert
+from=eps
+options=+adjoin -antialias -trim -transparent white -density %res %S.eps %S.png
+to=png
+type=Process
+
+[Tool/Convert/pdf2png]
+class=Convert
+command=convert
+from=pdf
+options=+adjoin -antialias -trim -transparent white -density %res %S.pdf %S.png
+to=png
+type=Process
+
+[Tool/DBLaTeX/Convert to DVI]
+class=Compile
+command=dblatex
+from=xml
+options=-tdvi %S.xml
+to=dvi
+type=Process
+
+[Tool/DBLaTeX/Convert to LaTeX]
+class=Compile
+command=dblatex
+from=xml
+options=-ttex %S.xml
+to=tex
+type=Process
+
+[Tool/DBLaTeX/Convert to PDF]
+class=Compile
+command=dblatex
+from=xml
+options=-tpdf %S.xml
+to=pdf
+type=Process
+
+[Tool/DBLaTeX/Convert to Postscript]
+class=Compile
+command=dblatex
+from=xml
+options=-tps %S.xml
+to=ps
+type=Process
+
+[Tool/DVItoPDF/Black and White]
+class=Convert
+command=dvipdfmx
+from=dvi
+options=-c %S.dvi
+to=pdf
+type=Process
+
+[Tool/DVItoPDF/Default]
+class=Convert
+command=dvipdfmx
+from=dvi
+options=%S.dvi
+to=pdf
+type=Process
+
+[Tool/DVItoPDF/Landscape]
+class=Convert
+command=dvipdfmx
+from=dvi
+options=-l %S.dvi
+to=pdf
+type=Process
+
+[Tool/DVItoPNG/Default]
+class=Convert
+command=dvipng
+from=dvi
+options=-T tight -D %res -o %S.png %S.dvi
+to=png
+type=Process
+
+[Tool/DVItoPS/Default]
+class=Convert
+command=dvips
+from=dvi
+options=-o %S.ps %S.dvi
+to=ps
+type=Process
+
+[Tool/DVItoPS/dvi2eps]
+class=Convert
+command=dvips
+from=dvi
+options=-o %S.eps %S.dvi
+to=eps
+type=Process
+
+[Tool/ForwardDVI/Document Viewer]
+class=ForwardDVI
+from=dvi
+to=dvi
+type=DocumentViewer
+
+[Tool/ForwardDVI/Okular]
+class=ForwardDVI
+command=okular
+from=dvi
+options=--unique %target
+to=dvi
+type=Process
+
+[Tool/ForwardPDF/Document Viewer]
+class=ForwardDVI
+from=pdf
+to=pdf
+type=DocumentViewer
+
+[Tool/ForwardPDF/Okular]
+class=ForwardDVI
+command=okular
+from=pdf
+options=--unique %absolute_target
+to=pdf
+type=Process
+
+[Tool/LaTeX to Web/TeX4ht (LaTeX to HTML)]
+class=Compile
+command=mk4ht
+from=tex
+options=htlatex %source
+to=html
+type=Process
+
+[Tool/LaTeX to Web/TeX4ht (LaTeX to MathML)]
+class=Compile
+command=mk4ht
+from=tex
+options=xhmlatex %source
+to=xml
+type=Process
+
+[Tool/LaTeX to Web/TeX4ht (LaTeX to XML)]
+class=Compile
+command=mk4ht
+from=tex
+options=xhlatex %source
+to=xml
+type=Process
+
+[Tool/LaTeX to Web/latex2html]
+autoRun=no
+checkForRoot=no
+class=Compile
+command=latex2html
+from=tex
+jumpToFirstError=no
+options=%source
+to=html
+type=Process
+
+[Tool/LaTeX/Default]
+autoRun=yes
+checkForRoot=yes
+class=LaTeX
+command=latex
+from=
+jumpToFirstError=yes
+options=-interaction=nonstopmode %source
+to=dvi
+type=Process
+
+[Tool/LaTeX/Draft]
+autoRun=yes
+checkForRoot=yes
+class=LaTeX
+command=latex
+from=
+jumpToFirstError=yes
+options=-draftmode -interaction=nonstopmode %source
+to=dvi
+type=Process
+
+[Tool/LaTeX/Modern]
+autoRun=yes
+checkForRoot=yes
+class=LaTeX
+command=latex
+from=
+jumpToFirstError=yes
+options=-src-specials -interaction=nonstopmode %source
+to=dvi
+type=Process
+
+[Tool/Lilypond/DVI]
+class=Compile
+command=lilypond
+from=ly
+options=--dvi %source
+to=dvi
+type=Process
+
+[Tool/Lilypond/PDF]
+autoRun=no
+checkForRoot=no
+class=Compile
+command=lilypond
+from=ly
+jumpToFirstError=no
+options=--pdf %source
+to=pdf
+type=Process
+
+[Tool/Lilypond/PNG]
+class=Compile
+command=lilypond
+from=ly
+options=--png %source
+to=png
+type=Process
+
+[Tool/Lilypond/PS]
+class=Compile
+command=lilypond
+from=ly
+options=--ps %source
+to=ps
+type=Process
+
+[Tool/Lilypond/TeX]
+class=Compile
+command=lilypond
+from=ly
+options=--tex %source
+to=tex
+type=Process
+
+[Tool/LivePreview-LuaLaTeX/Default]
+autoRun=yes
+checkForRoot=no
+class=LaTeXLivePreview
+command=lualatex
+from=
+jumpToFirstError=yes
+options=--synctex=1 --interaction=nonstopmode --output-directory=%dir_target %source
+to=pdf
+type=Process
+
+[Tool/LivePreview-PDFLaTeX/Default]
+autoRun=yes
+checkForRoot=no
+class=LaTeXLivePreview
+command=pdflatex
+from=
+jumpToFirstError=yes
+options=-synctex=1 -interaction=nonstopmode -output-directory=%dir_target %source
+to=pdf
+type=Process
+
+[Tool/LivePreview-PDFLaTeX/PSTricks]
+autoRun=yes
+checkForRoot=no
+class=LaTeXLivePreview
+command=pdflatex
+from=
+jumpToFirstError=yes
+options=-shell-escape -synctex=1 -interaction=nonstopmode -output-directory=%dir_target %source
+to=pdf
+type=Process
+
+[Tool/LivePreview-XeLaTeX/Default]
+autoRun=yes
+checkForRoot=no
+class=LaTeXLivePreview
+command=xelatex
+from=
+jumpToFirstError=yes
+options=-synctex=1 -shell-escape -interaction=nonstopmode -output-directory=%dir_target %source -shell-escape
+to=pdf
+type=Process
+
+[Tool/LuaLaTeX/PDF]
+autoRun=yes
+checkForRoot=yes
+class=LaTeX
+command=lualatex
+from=
+jumpToFirstError=yes
+options=--interaction=nonstopmode %source
+to=pdf
+type=Process
+
+[Tool/LuaLaTeX/PDF Draft]
+autoRun=yes
+checkForRoot=yes
+class=LaTeX
+command=lualatex
+from=
+jumpToFirstError=yes
+options=--draftmode --interaction=nonstopmode %source
+to=pdf
+type=Process
+
+[Tool/LuaLaTeX/PDF Modern]
+autoRun=yes
+checkForRoot=yes
+class=LaTeX
+command=lualatex
+from=
+jumpToFirstError=yes
+options=--synctex=1 --interaction=nonstopmode %source
+to=pdf
+type=Process
+
+[Tool/LuaLaTeX/XDVI]
+autoRun=yes
+checkForRoot=yes
+class=LaTeX
+command=lualatex
+from=
+jumpToFirstError=yes
+options=--output-format=dvi --interaction=nonstopmode %source
+to=xdvi
+type=Process
+
+[Tool/LuaLaTeX/XDVI Draft]
+autoRun=yes
+checkForRoot=yes
+class=LaTeX
+command=lualatex
+from=
+jumpToFirstError=yes
+options=--output-format=dvi --draftmode --interaction=nonstopmode %source
+to=xdvi
+type=Process
+
+[Tool/LuaLaTeX/XDVI Modern]
+autoRun=yes
+checkForRoot=yes
+class=LaTeX
+command=lualatex
+from=
+jumpToFirstError=yes
+options=--output-format=dvi --interaction=nonstopmode %source
+to=xdvi
+type=Process
+
+[Tool/MakeIndex/Default]
+autoRun=no
+checkForRoot=no
+class=Compile
+command=makeindex
+from=idx
+jumpToFirstError=no
+options=%S.idx
+to=idx
+type=Process
+
+[Tool/MakeIndex/xindy]
+class=Compile
+command=xindy
+from=idx
+options=%S.idx
+to=idx
+type=Process
+
+[Tool/MetaPost/Default]
+class=Compile
+command=mpost
+from=
+options=-tex=latex -interaction=nonstopmode %source
+to=
+type=Process
+
+[Tool/PDFLaTeX/Default]
+autoRun=yes
+checkForRoot=yes
+class=LaTeX
+command=pdflatex
+from=
+jumpToFirstError=yes
+options=-interaction=nonstopmode %source
+to=pdf
+type=Process
+
+[Tool/PDFLaTeX/Draft]
+autoRun=yes
+checkForRoot=yes
+class=LaTeX
+command=pdflatex
+from=
+jumpToFirstError=yes
+options=-draftmode -interaction=nonstopmode %source
+to=pdf
+type=Process
+
+[Tool/PDFLaTeX/Modern]
+autoRun=yes
+checkForRoot=yes
+class=LaTeX
+command=pdflatex
+from=
+jumpToFirstError=yes
+options=-synctex=1 -interaction=nonstopmode %source
+to=pdf
+type=Process
+
+[Tool/PDFLaTeX/PSTricks]
+autoRun=yes
+checkForRoot=yes
+class=LaTeX
+command=pdflatex
+from=
+jumpToFirstError=yes
+options=-shell-escape -synctex=1 -interaction=nonstopmode %source
+to=pdf
+type=Process
+
+[Tool/PDFTeX/Default]
+autoRun=no
+checkForRoot=no
+class=Compile
+command=pdftex
+from=
+jumpToFirstError=no
+options=-interaction=nonstopmode %source
+to=pdf
+type=Process
+
+[Tool/PDFTeX/Draft]
+class=Compile
+command=pdftex
+from=
+options=-draftmode -interaction=nonstopmode %source
+to=pdf
+type=Process
+
+[Tool/PDFTeX/Modern]
+class=Compile
+command=pdftex
+from=
+options=-synctex=1 -interaction=nonstopmode %source
+to=pdf
+type=Process
+
+[Tool/PStoPDF/Default]
+class=Convert
+command=ps2pdf
+from=ps
+options=%S.ps %S.pdf
+to=pdf
+type=Process
+
+[Tool/PreviewLaTeX/Default]
+autoRun=no
+checkForRoot=no
+class=LaTeXpreview
+command=latex
+from=
+jumpToFirstError=yes
+options=-synctex=1 -interaction=nonstopmode %source
+to=dvi
+type=Process
+
+[Tool/PreviewLuaLaTeX/Default]
+autoRun=no
+checkForRoot=no
+class=LaTeXpreview
+command=lualatex
+from=
+jumpToFirstError=yes
+options=--interaction=nonstopmode %source
+to=pdf
+type=Process
+
+[Tool/PreviewPDFLaTeX/Default]
+autoRun=no
+checkForRoot=no
+class=LaTeXpreview
+command=pdflatex
+from=
+jumpToFirstError=yes
+options=-interaction=nonstopmode %source
+to=pdf
+type=Process
+
+[Tool/PreviewXeLaTeX/Default]
+autoRun=no
+checkForRoot=no
+class=LaTeXpreview
+command=xelatex
+from=
+jumpToFirstError=yes
+options=-interaction=nonstopmode %source
+to=pdf
+type=Process
+
+[Tool/QuickBuild/LaTeX]
+class=Sequence
+sequence=LaTeX
+type=Sequence
+
+[Tool/QuickBuild/LaTeX+DVItoPDF+ViewPDF]
+class=Sequence
+sequence=LaTeX,DVItoPDF,ViewPDF
+type=Sequence
+
+[Tool/QuickBuild/LaTeX+DVItoPS+PStoPDF+ViewPDF]
+class=Sequence
+sequence=LaTeX,DVItoPS,PStoPDF,ViewPDF
+type=Sequence
+
+[Tool/QuickBuild/LaTeX+DVItoPS+ViewPS]
+class=Sequence
+sequence=LaTeX,DVItoPS,ViewPS
+type=Sequence
+
+[Tool/QuickBuild/LaTeX+ForwardDVI]
+class=Sequence
+sequence=LaTeX,ForwardDVI
+type=Sequence
+
+[Tool/QuickBuild/LaTeX+ViewDVI]
+class=Sequence
+sequence=LaTeX,ViewDVI
+type=Sequence
+
+[Tool/QuickBuild/LuaLaTeX+ForwardPDF]
+class=Sequence
+sequence=LuaLaTeX,ForwardPDF
+type=Sequence
+
+[Tool/QuickBuild/LuaLaTeX+ViewPDF]
+class=Sequence
+sequence=LuaLaTeX,ViewPDF
+type=Sequence
+
+[Tool/QuickBuild/PDFLaTeX+ForwardPDF]
+class=Sequence
+sequence=PDFLaTeX,ForwardPDF
+type=Sequence
+
+[Tool/QuickBuild/PDFLaTeX+ViewPDF]
+autoRun=no
+checkForRoot=no
+class=Sequence
+jumpToFirstError=no
+sequence=PDFLaTeX,ViewPDF,Archive
+type=Sequence
+
+[Tool/TeX/Default]
+class=Compile
+command=tex
+from=
+options=-interaction=nonstopmode %source
+to=dvi
+type=Process
+
+[Tool/TeX/Modern]
+class=Compile
+command=tex
+from=
+options=-src-specials -interaction=nonstopmode %source
+to=dvi
+type=Process
+
+[Tool/ViewBib/JabRef]
+class=ViewBib
+command=jabref
+from=bib
+options=%dir_base/%source
+to=bib
+type=Process
+
+[Tool/ViewBib/KBib]
+class=ViewBib
+command=kbib
+from=bib
+options=%dir_base/%source
+to=bib
+type=Process
+
+[Tool/ViewBib/KBibTex]
+class=ViewBib
+command=kbibtex
+from=bib
+options=%dir_base/%source
+to=bib
+type=Process
+
+[Tool/ViewBib/Pybliographer]
+class=ViewBib
+command=pybliographic
+from=bib
+options=%dir_base/%source
+to=bib
+type=Process
+
+[Tool/ViewBib/gbib]
+class=ViewBib
+command=gbib
+from=bib
+options=%dir_base/%source
+to=bib
+type=Process
+
+[Tool/ViewDVI/Document Viewer]
+class=View
+from=dvi
+to=dvi
+type=DocumentViewer
+
+[Tool/ViewDVI/Evince]
+class=View
+command=evince
+from=dvi
+options=%target
+state=Viewer
+to=dvi
+type=Process
+
+[Tool/ViewDVI/Okular]
+class=View
+command=okular
+from=dvi
+options=%target
+state=Viewer
+to=dvi
+type=Process
+
+[Tool/ViewDVI/Okular Unique]
+class=View
+command=okular
+from=dvi
+options=--unique %target
+state=Viewer
+to=dvi
+type=Process
+
+[Tool/ViewHTML/Firefox]
+class=ViewHTML
+command=firefox
+from=html
+options=file:%dir_target/%target
+relDir=
+state=Editor
+target=
+to=html
+type=Process
+
+[Tool/ViewHTML/Konqueror]
+class=ViewHTML
+command=konqueror
+from=html
+options=file:%dir_target/%target
+relDir=
+state=Editor
+target=
+to=html
+type=Process
+
+[Tool/ViewHTML/Mozilla]
+class=ViewHTML
+command=mozilla
+from=html
+options=file:%dir_target/%target
+relDir=
+state=Editor
+target=
+to=html
+type=Process
+
+[Tool/ViewHTML/Seamonkey]
+class=ViewHTML
+command=seamonkey
+from=html
+options=file:%dir_target/%target
+relDir=
+state=Editor
+target=
+to=html
+type=Process
+
+[Tool/ViewPDF/Acroread]
+class=View
+command=acroread
+from=pdf
+options=%target
+state=Viewer
+to=pdf
+type=Process
+
+[Tool/ViewPDF/Document Viewer]
+class=View
+from=pdf
+to=pdf
+type=DocumentViewer
+
+[Tool/ViewPDF/Evince]
+class=View
+command=evince
+from=pdf
+options=%target
+state=Viewer
+to=pdf
+type=Process
+
+[Tool/ViewPDF/Okular]
+class=View
+command=okular
+from=pdf
+options=%target
+state=Viewer
+to=pdf
+type=Process
+
+[Tool/ViewPDF/Okular Unique]
+class=View
+command=okular
+from=pdf
+options=--unique %target
+state=Viewer
+to=pdf
+type=Process
+
+[Tool/ViewPS/Document Viewer]
+class=View
+from=ps
+to=ps
+type=DocumentViewer
+
+[Tool/ViewPS/Evince]
+class=View
+command=evince
+from=ps
+options=%target
+state=Viewer
+to=ps
+type=Process
+
+[Tool/ViewPS/GV]
+class=View
+command=gv
+from=ps
+options=%target
+state=Viewer
+to=ps
+type=Process
+
+[Tool/ViewPS/Okular]
+class=View
+command=okular
+from=ps
+options=%target
+state=Viewer
+to=ps
+type=Process
+
+[Tool/ViewPS/Okular Unique]
+class=View
+command=okular
+from=ps
+options=--unique %target
+state=Viewer
+to=ps
+type=Process
+
+[Tool/XeLaTeX/PDF]
+autoRun=yes
+checkForRoot=yes
+class=LaTeX
+command=xelatex
+from=
+jumpToFirstError=yes
+options=-interaction=nonstopmode %source
+to=pdf
+type=Process
+
+[Tool/XeLaTeX/PDF Draft]
+autoRun=yes
+checkForRoot=yes
+class=LaTeX
+command=xelatex
+from=
+jumpToFirstError=yes
+options=-draftmode -interaction=nonstopmode %source
+to=pdf
+type=Process
+
+[Tool/XeLaTeX/PDF Modern]
+autoRun=yes
+checkForRoot=yes
+class=LaTeX
+command=xelatex
+from=
+jumpToFirstError=yes
+options=-synctex=1 -interaction=nonstopmode %source -shell-escape
+to=pdf
+type=Process
+
+[Tool/XeLaTeX/XDVI]
+autoRun=yes
+checkForRoot=yes
+class=LaTeX
+command=xelatex
+from=
+jumpToFirstError=yes
+options=-no-pdf -interaction=nonstopmode %source
+to=xdvi
+type=Process
+
+[Tool/XeLaTeX/XDVI Draft]
+autoRun=yes
+checkForRoot=yes
+class=LaTeX
+command=xelatex
+from=
+jumpToFirstError=yes
+options=-no-pdf -draftmode -interaction=nonstopmode %source
+to=xdvi
+type=Process
+
+[Tool/XeLaTeX/XDVI Modern]
+autoRun=yes
+checkForRoot=yes
+class=LaTeX
+command=xelatex
+from=
+jumpToFirstError=yes
+options=-no-pdf -src-specials -interaction=nonstopmode %source
+to=xdvi
+type=Process
+
+[Tool/make/Default]
+autoRun=yes
+checkForRoot=no
+class=Compile
+close=
+command=make
+from=pdf
+jumpToFirstError=no
+menu=Quick
+options=dissertation
+target=*
+to=*
+type=Process
+
+[Tool/make_draft/Default]
+autoRun=yes
+checkForRoot=no
+class=Compile
+close=
+command=make
+from=pdf
+jumpToFirstError=no
+menu=Quick
+options=dissertation-draft
+target=*
+to=*
+type=Process
+
+[ToolSelectAction]
+Compile=14
+Convert=-1
+Quick=0
+View=5
+
+[Tools]
+Archive=Tar + gzip
+Asymptote=Default
+BibTeX=Default
+Biber=Default
+ConTeXt=PDF
+Convert=pdf2png
+DBLaTeX=Convert to LaTeX
+DVItoPDF=Default
+DVItoPNG=Default
+DVItoPS=Default
+ForwardDVI=Document Viewer
+ForwardPDF=Document Viewer
+LaTeX=Modern
+LaTeX to Web=latex2html
+Lilypond=PDF
+LivePreview-LuaLaTeX=Default
+LivePreview-PDFLaTeX=Default
+LivePreview-XeLaTeX=Default
+LuaLaTeX=PDF Modern
+MakeIndex=Default
+MetaPost=Default
+PDFLaTeX=Modern
+PDFTeX=Modern
+PStoPDF=Default
+PreviewLaTeX=Default
+PreviewLuaLaTeX=Default
+PreviewPDFLaTeX=Default
+PreviewTeXPaths=/home/roman/Documents/bachelor-diploma
+PreviewXeLaTeX=Default
+QuickBuild=PDFLaTeX+ViewPDF
+TeX=Modern
+ViewBib=KBibTex
+ViewDVI=Document Viewer
+ViewHTML=Konqueror
+ViewPDF=Document Viewer
+ViewPS=Document Viewer
+XeLaTeX=PDF Modern
+make=Default
+make_draft=Default
+
+[ToolsGUI]
+Archive=Archive,archive-insert
+Asymptote=Compile,application-x-executable
+BibTeX=Compile,bibtex
+Biber=Compile,bibtex
+ConTeXt=Compile,latex
+Convert=Convert,convert
+DBLaTeX=Compile,dblatex
+DVItoPDF=Convert,dvipdf
+DVItoPNG=Convert,dvipng
+DVItoPS=Convert,dvips
+ForwardDVI=View,dvisearch
+ForwardPDF=View,dvisearch
+LaTeX=Compile,latex
+LaTeX to Web=Compile,l2h
+Lilypond=Compile,lilypond
+LivePreview-LuaLaTeX=none,application-x-executable
+LivePreview-PDFLaTeX=none,application-x-executable
+LivePreview-XeLaTeX=none,application-x-executable
+LuaLaTeX=Compile,latex
+MakeIndex=Compile,makeidx
+MetaPost=Compile,mpost
+PDFLaTeX=Compile,pdflatex
+PDFTeX=Compile,pdftex
+PStoPDF=Convert,ps2pdf
+PreviewLaTeX=none,application-x-executable
+PreviewLuaLaTeX=none,application-x-executable
+PreviewPDFLaTeX=none,application-x-executable
+PreviewXeLaTeX=none,application-x-executable
+QuickBuild=Quick,quick
+TeX=Compile,texcompiler
+ViewBib=View,viewbib
+ViewDVI=View,okular
+ViewHTML=View,viewhtml
+ViewPDF=View,okular
+ViewPS=View,okular
+XeLaTeX=Compile,latex
+make=Quick,non-starred-symbolic
+make_draft=Quick,go-next-skip
+
+[VersionInfo]
+RCVersion=8
+
+[View-Settings,View=0,URL=file://:@/home/roman/Documents/bachelor-diploma/inc/0-bibliography.tex]
+CursorColumn=37
+CursorLine=8
+Dynamic Word Wrap=true
+JumpList=
+TextFolding=[]
+ViMarks=.,4,0,[,4,0,],4,1
+
+[View-Settings,View=0,URL=file://:@/home/roman/Documents/bachelor-diploma/inc/2-oop.tex]
+CursorColumn=46
+CursorLine=17
+Dynamic Word Wrap=true
+JumpList=
+TextFolding=[]
+ViMarks=.,17,111,[,17,111,],17,111
+
+[View-Settings,View=0,URL=file://:@/home/roman/Documents/bachelor-diploma/inc/_old/0-bibliography.tex]
+CursorColumn=0
+CursorLine=0
+Dynamic Word Wrap=true
+JumpList=
+TextFolding=[]
+ViMarks=
+
+[View-Settings,View=0,URL=file://:@/home/roman/Documents/bachelor-diploma/main.toc]
+CursorColumn=49
+CursorLine=5
+Dynamic Word Wrap=true
+JumpList=
+TextFolding=[]
+ViMarks=.,11,49,[,11,49,],11,49
+
+[View-Settings,View=0,URL=file://:@/tmp/kile-livepreview.BCtpGe/main.toc]
+CursorColumn=0
+CursorLine=11
+Dynamic Word Wrap=true
+JumpList=
+TextFolding=[]
+ViMarks=
+
+[View-Settings,View=0,URL=file://:@/tmp/kile-livepreview.VLCcLZ/main.toc]
+CursorColumn=0
+CursorLine=7
+Dynamic Word Wrap=true
+JumpList=
+TextFolding=[]
+ViMarks=
+
+[default]
+NewFileWizardSelectedIconLaTeX=Empty File

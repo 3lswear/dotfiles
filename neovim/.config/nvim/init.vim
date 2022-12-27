@@ -1,7 +1,7 @@
 setglobal nocompatible
 let mapleader="\<Space>"
 
-call plug#begin('~/local/share/nvim/plugged')
+call plug#begin('~/.local/share/nvim/plugged')
 
 	"Plug 'tmhedberg/SimpylFold'
 	"Plug 'Valloric/YouCompleteMe'
@@ -10,27 +10,38 @@ call plug#begin('~/local/share/nvim/plugged')
 	" Plug 'tpope/vim-sensible'
 	" Plug 'tpope/vim-repeat'
 
-	" TreeShitter (EXPERIMENTAL) (only nvim-nightly)
-	" Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+	if has('nvim-0.5.0')
+		" TreeShitter (EXPERIMENTAL) (only nvim-nightly)
+		Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
+		" Telescope.nvim
+		Plug 'nvim-lua/popup.nvim'
+		Plug 'nvim-lua/plenary.nvim'
+		Plug 'nvim-telescope/telescope.nvim'
+	endif
 	" COMMENTS
-	Plug 'tpope/vim-commentary'
+	" Plug 'tpope/vim-commentary'
+	Plug 'tomtom/tcomment_vim'
 	source ~/.config/nvim/comments.vim
 
 	" COLOR SCHEMES
 	Plug 'overcache/NeoSolarized'
 	" Plug 'altercation/vim-colors-solarized'
-	" Plug 'tomasiser/vim-code-dark'
+	Plug 'tomasiser/vim-code-dark'
+	" Plug 'morhetz/gruvbox'
 
 	" STATUS BAR
 	" Plug 'vim-airline/vim-airline'
 	" Plug 'vim-airline/vim-airline-themes'
 	Plug 'itchyny/lightline.vim'
-	Plug 'taohexxx/lightline-buffer'
+	" Plug 'taohexxx/lightline-buffer'
+	Plug 'mengelbrecht/lightline-bufferline'
+	Plug 'itchyny/vim-gitbranch'
 	source ~/.config/nvim/lightline.vim
 
 	" FILE TREE
-	Plug 'scrooloose/nerdtree'
+	" Plug 'scrooloose/nerdtree'
+	Plug 'lambdalisue/fern.vim'
 
 	" 42 School Header
 	Plug 'pbondoer/vim-42header'
@@ -38,9 +49,12 @@ call plug#begin('~/local/share/nvim/plugged')
 	" SYNTAX HIGLIGHT
 	" Plug 'vim-syntastic/syntastic'
 	" Plug 'sheerun/vim-polyglot'
-	Plug 'StanAngeloff/php.vim'
+	" Plug 'StanAngeloff/php.vim'
 	" Java
-	Plug 'uiiaoo/java-syntax.vim'
+	" Plug 'uiiaoo/java-syntax.vim'
+
+	" TOML support
+	" Plug 'cespare/vim-toml'
 
 	" CODE COMPLETION
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -71,7 +85,31 @@ call plug#begin('~/local/share/nvim/plugged')
 	"      \ 'coc-diagnostic',
 	"      \]
 	" LangServer
+	" Colorizer
 
+	Plug 'norcalli/nvim-colorizer.lua'
+
+	"Nvim-qt gui fix
+	Plug 'equalsraf/neovim-gui-shim'
+
+	" Gitgutter in lua
+	Plug 'nvim-lua/plenary.nvim'
+	Plug 'lewis6991/gitsigns.nvim'
+
+	" Telescope-project
+	Plug 'nvim-telescope/telescope-project.nvim'
+
+	" Linter and norminette checker
+	" Plug 'vim-syntastic/syntastic'
+	Plug 'alexandregv/norminette-vim'
+
+	" ALE
+	" Plug 'dense-analysis/ale'
+	Plug 'folke/which-key.nvim'
+
+	Plug 'nvim-treesitter/nvim-treesitter-context'
+
+	
 call plug#end()
 
 " From mr barutkin
@@ -100,16 +138,14 @@ nmap <leader>u mQviwU`Q
 nmap <leader>l mQviwu`Q
 
 set wildcharm=<C-z>
-nnoremap <leader>b :buffer <C-z>
+" nnoremap <leader>b :buffer <C-z>
 
-set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
-
-set number relativenumber
+set number
 set cursorline cursorcolumn
 set smartindent
 set colorcolumn=80
 set nofoldenable
-set wrap
+set nowrap
 set linebreak
 set hlsearch
 set ignorecase
@@ -129,7 +165,7 @@ set laststatus=2
 set encoding=utf-8
 
 set termguicolors
-set autochdir
+" set autochdir
 
 " Tmux hack
 set t_8f=^[[38;2;%lu;%lu;%lum
@@ -142,7 +178,7 @@ if !has("gui_running")
     "set term=screen-256color
 endif
 
-set guifont="Fira Code":11
+" set guifont="Fira Code":11
 " fix cursor display in cygwin
 if has("win32unix")
     let &t_ti.="\e[1 q"
@@ -159,11 +195,31 @@ endif
 
 " NerdTree Stuff
 "nmap <C-m> :NERDTreeFind<CR>
-nmap <silent> <leader><leader> :NERDTreeToggle<CR>
+" nmap <silent> <leader><leader> :NERDTreeToggle<CR>
 let g:NERDTreeChDirMode=2
+
 
 " If more than one window and previous buffer was NERDTree, go back to it.
 autocmd BufEnter * if bufname('#') =~# "^NERD_tree_" && winnr('$') > 1 | b# | endif
+
+" netrw
+" no banner
+let g:netrw_banner=0
+" reuse split
+let g:netrw_browse_split = 4
+" size
+let g:netrw_winsize = -28
+" tree-view
+let g:netrw_liststyle = 3
+
+let g:netrw_list_hide = '\(^\|\s\s\)\zs\.\S\+,\(^\|\s\s\)ntuser\.\S\+'
+" nmap <silent> <leader><leader> :Lexplore<CR>
+"
+nmap <silent> <leader>t :Fern . -reveal=% -drawer<CR>
+
+autocmd FileType netrw set nolist
+
+autocmd FileType c compiler norminette
 
 " Avoid crashes when calling plug commands in NERDTree buffer
 let g:plug_window = 'noautocmd vertical topleft new'
@@ -187,7 +243,7 @@ set background=dark
 
 " Enabling persistent undo
 if has('persistent_undo')         "check if your vim version supports
-  set undodir=$HOME/.vim/undo     "directory where the undo files will be stored
+  set undodir=$HOME/.local/share/nvim/undo/     "directory where the undo files will be stored
   set undofile                    "turn on the feature
 endif
 
@@ -206,17 +262,111 @@ set softtabstop=0 noexpandtab
 set shiftwidth=4
 set smarttab                            " Makes tabbing smarter will realize you have 2 vs 4
 
+" Backspace to previous buffer
+nnoremap <Backspace> <C-^>
+
 " Set system clipboard
-set clipboard+=unnamedplus
+" set clipboard+=unnamedplus
 
 " Open help in vsplit
 "autocmd FileType help wincmd H
 
 " Neovide Stuff
-set guifont=Fira\ Code\ Medium:h10.5
+" set guifont=Fira\ Code:h11
+" set guifont=Jetbrains\ Mono\ Medium:h11
+" source ~/.config/nvim/ginit.vim
+"
+augroup vimStartup
+	au!
 
-" Attemp to fix php highlight
+	" When editing a file, always jump to the last known cursor position.
+	" Don't do it when the position is invalid or when inside an event handler
+	" (happens when dropping a file on gvim).
+	autocmd BufReadPost *
+				\ if line("'\"") >= 1 && line("'\"") <= line("$") |
+				\   exe "normal! g`\"" |
+				\ endif
 
-syntax sync minlines=100
-syntax sync maxlines=240
-set synmaxcol=800
+augroup END
+
+set title
+
+
+if !exists(":DiffOrig")
+  command DiffOrig vert new | set bt=nofile | r ++edit # | 0d_ | diffthis
+		  \ | wincmd p | diffthis
+endif
+
+
+if exists('g:neoray')
+    " set guifont=Fira_Code_Medium:h11
+	set guifont=:h12
+	NeoraySet BoxDrawingOn false
+endif
+
+" Lua colorizer setup
+lua require'colorizer'.setup()
+
+" my stuff
+" do not consider '-' as a word separator in c files
+autocmd BufWritePre,BufRead *.c set iskeyword-=-
+autocmd BufWritePre,BufRead *.cpp set iskeyword-=-
+autocmd BufWritePre,BufRead *.rt setf conf
+
+autocmd CursorHold,CursorHoldI * checktime
+
+" close all buffers but current
+command! BufOnly silent! call Preserve("exec '%bd|e#|bd#'")
+hi DiffAdd guifg=NONE guibg=#4b5632
+" set up gitgutter
+lua << EOF
+require('gitsigns').setup()
+EOF
+" set up telescope
+
+source ~/.config/nvim/telescope.vim
+
+" TreeShitter config
+lua << EOF
+require'nvim-treesitter.configs'.setup {
+  ensure_installed = {"go", "php", "c", "cpp", "vim"}, -- one of "all", "maintained" (parsers with maintainers), or a list of languages
+  highlight = {
+	enable = true,              -- false will disable the whole extension
+	disable = {},  -- list of language that will be disabled
+  },
+  indent = {
+	  enable = false,
+  }
+}
+EOF
+
+" which-key.nvim
+"
+
+lua << EOF
+  require("which-key").setup {
+    -- your configuration comes here
+    -- or leave it empty to use the default settings
+    -- refer to the configuration section below
+  }
+EOF
+
+source ~/.config/nvim/syntastic.vim
+" add templates/skeletons
+" source ~/.config/nvim/template.vim
+
+" source ~/.config/nvim/ale.vim
+
+let g:termdebug_wide=1
+packadd termdebug
+let g:termdebug_popup=0
+
+map <leader>k :pyf /usr/share/clang/clang-format.py<cr>
+
+
+if $USER == 'root'
+	" colorscheme gruvbox
+	set background=light
+	set wrap
+endif
+" endif

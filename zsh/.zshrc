@@ -71,7 +71,7 @@ ZSH_CUSTOM=/usr/share/zsh
 plugins=(git zsh-completions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
-source virtualenvwrapper.sh
+# source virtualenvwrapper.sh
 
 # User configuration
 
@@ -119,16 +119,26 @@ alias free='free -m'                      # show sizes in MB
 alias np='nano -w PKGBUILD'
 alias more=less
 alias SS="sudo systemctl"
+
 alias p="sudo pacman --color auto"
 alias yay="yay --aur --color auto"
+
 alias vimrc="$EDITOR ~/.config/nvim/init.vim"
-alias vishellrc="$EDITOR ~/.zshrc"
+alias vishellrc="$EDITOR ~/.zshrc && shellrc"
+alias shellrc="echo '[*] Sourcing shell rc file... '; source ~/.zshrc"
+
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+
 alias open='f(){ xdg-open "$@" &>/dev/null ;  unset -f f; }; f'
+alias svim="EDITOR=nvim sudoedit"
+
 alias igt="sudo intel_gpu_top"
+
 alias tlp="sudo tlp"
 alias tlp-stat="sudo tlp-stat"
-alias shellrc="source ~/.zshrc"
+
+alias podsos="nc localhost 4000"
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(echo $history[$HISTCMD] |sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
 #color tha man if using less
 man() {
@@ -172,18 +182,21 @@ zle -N zle-line-init
 echo -ne '\e[5 q' # Use beam shape cursor on startup.
 preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
 
-
+# make search up and down work, so partially type and hit up/down to find relevant stuff
+bindkey '^[[A' up-line-or-search                                                
+bindkey '^[[B' down-line-or-search
 
 #fix stupid zsh directory autocomplete colors
 zstyle ':completion:*' list-colors
 
 alias ccw='gcc -Wall -Wextra -Werror'
+alias clangw='clang -Wall -Wextra -Werror'
 # colored GCC warnings and errors
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 #Norminette and stuff
 # alias norminette="~/.norminette/norminette.rb"
-alias norminette="norminette_linux"
+# alias norminette="norminette_linux"
 alias norm='norminette -R CheckForbiddenSourceHeader'
 
 # PIP autocomplete
