@@ -109,6 +109,8 @@ call plug#begin('~/.local/share/nvim/plugged')
 
 	Plug 'nvim-treesitter/nvim-treesitter-context'
 
+	Plug 'tjdevries/cyclist.vim'
+
 	
 call plug#end()
 
