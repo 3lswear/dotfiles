@@ -26,6 +26,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 
 	" COLOR SCHEMES
 	Plug 'overcache/NeoSolarized'
+	Plug 'shaunsingh/solarized.nvim'
 	" Plug 'altercation/vim-colors-solarized'
 	Plug 'tomasiser/vim-code-dark'
 	" Plug 'morhetz/gruvbox'
@@ -290,8 +291,6 @@ augroup vimStartup
 				\ endif
 
 augroup END
-
-set title
 
 
 if !exists(":DiffOrig")
