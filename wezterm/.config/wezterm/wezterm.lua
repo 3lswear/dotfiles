@@ -38,6 +38,7 @@ return {
   },
   switch_to_last_active_tab_when_closing_tab = true,
   enable_wayland = true,
+  scrollback_lines = 10000,
 
 
   -- color_scheme = "Batman",
