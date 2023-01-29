@@ -30,7 +30,7 @@ require('telescope').setup {
 	extensions = {
 		project = {
 			base_dirs = {
-				{'~/work/2_ecole/github/', max_depth = 2},
+				-- {'~/work/2_ecole/github/', max_depth = 2},
 			}
 		}
 	}
