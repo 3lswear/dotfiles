@@ -1,0 +1,6 @@
+#word stuff
+~$*.docx
+~$*.doc
+~$*.xls
+~$*.xlsx
+~*.tmp
