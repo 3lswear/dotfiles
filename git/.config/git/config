@@ -1,0 +1,16 @@
+[core]
+	quotepath = false
+	excludesfile = /home/roman/.config/git/ignore
+[diff "docx"]
+	textconv=pandoc -t markdown -s
+	# textconv=soffice --headless --cat
+	prompt = false
+[diff "doc"]
+	# textconv=w2m
+	textconv=textract #looks better
+	cachetextconv=true
+	prompt = false
+[alias]
+  wdiff = diff --word-diff=color --unified=1
+[cola]
+	spellcheck = false
