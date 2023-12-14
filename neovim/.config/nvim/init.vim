@@ -119,6 +119,7 @@ call plug#end()
 
 nnoremap <nowait><leader>q :q<CR>
 nnoremap <leader>w :wa<CR>
+nnoremap <leader>ц :wa<CR>
 
 " find merge conflict markers
 nmap <silent> <leader>fc <ESC>/\v^[<=>]{7}( .*\|$)<CR>
