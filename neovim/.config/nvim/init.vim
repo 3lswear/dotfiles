@@ -13,6 +13,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 	if has('nvim-0.5.0')
 		" TreeShitter (EXPERIMENTAL) (only nvim-nightly)
 		Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+		Plug 'nvim-treesitter/nvim-treesitter-textobjects'
 
 		" Telescope.nvim
 		Plug 'nvim-lua/popup.nvim'
@@ -352,6 +353,35 @@ lua << EOF
     -- refer to the configuration section below
   }
 EOF
+
+" cyclist.vim
+call cyclist#add_listchar_option_set('default', {
+        \ 'eol': '↲',
+        \ 'tab': '» ',
+        \ 'trail': '·',
+        \ 'extends': '<',
+        \ 'precedes': '>',    
+        \ 'conceal': '┊',
+        \ 'nbsp': '␣',
+        \ })
+
+call cyclist#add_listchar_option_set('busy', {
+        \ 'eol': '↲',
+        \ 'tab': '»·',
+        \ 'space': '␣',
+        \ 'trail': '-',
+        \ 'extends': '☛',
+        \ 'precedes': '☚',    
+        \ 'conceal': '┊',
+        \ 'nbsp': '☠',
+        \ })
+
+" call cyclist#activate_listchars('limited')
+"
+" Cycle to the next configuration
+nmap <leader>cn <Plug>CyclistNext
+nmap <leader>cp <Plug>CyclistPrev
+
 
 source ~/.config/nvim/syntastic.vim
 " add templates/skeletons
